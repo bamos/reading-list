@@ -1,7 +1,7 @@
 [Home](https://github.com/bamos/reading-list/blob/master/README.md) | 
 [Nontechnical](http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md) | 
 [Technical](http://github.com/bamos/reading-list/blob/master/notes-technical.md) | 
-[List](http://github.com/bamos/reading-list/blob/master/to-read.md)
+[List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
 # Reading List
 
@@ -18,7 +18,7 @@ in an environment I'm comfortable in.
       http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md)
   + [Technical](
       http://github.com/bamos/reading-list/blob/master/notes-technical.md)
-+ A [list](http://github.com/bamos/reading-list/blob/master/to-read.md)
++ A [list](http://github.com/bamos/reading-list/blob/master/reading-list.md)
   of books I want to read.
 
 ## Suggest Something!
