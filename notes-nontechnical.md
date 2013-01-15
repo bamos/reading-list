@@ -205,7 +205,35 @@ Page 261
 + Rating: 9/10
 
 #### Quotes
-TODO: Add
+Page 10
+> Whatever my accomplishments, all of the things I loved were rooted in the
+dreams and goals I had as a child.
+
+Page 22
+> Growing up, I thought there were two types of families:
+> 
+> 1) Those who need a dictionary to get through dinner.
+> 2) Those who don't.
+> 
+> :
+>
+> Open the encyclopedia. Open the dictionary. Open your mind.
+
+Page 24
+> My father would have been happy giving everything away and living in 
+a sack cloth instead of in the suburbs
+
+Page 79
+> Brick walls are there for a reason. They give us a chance to show how
+badly we want something.
+
+Page 117
+> It's a thrill to fulfill your childhood dreams, but as you get older,
+you may find that enabling the dreams of others is even more fun.
+
+Page 141
+> If nobody ever worried about what was in other people's heads, we'd all
+be 33 percent more effective in our lives and on jobs.
 
 ## Rand, Ayn
 ### Atlas Shrugged
@@ -214,14 +242,14 @@ TODO: Add
 
 #### Quotes
 Page 933
-> Neither love nor fame nor cash is a value if obtained by fraud
+> Neither love nor fame nor cash is a value if obtained by fraud.
 
 Page 938
-> It is not death that we wish to avoid, but life that we wish to live
+> It is not death that we wish to avoid, but life that we wish to live.
 
 Page 959
 > An inventor is a man who asks "Why" of the universe and lets nothing
-> stand between the answer and his mind
+> stand between the answer and his mind.
 
 ### The Fountainhead
 + Date Finished: 2011.08.15
