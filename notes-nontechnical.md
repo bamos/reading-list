@@ -212,9 +212,9 @@ dreams and goals I had as a child.
 Page 22
 > Growing up, I thought there were two types of families:
 > 
->    1) Those who need a dictionary to get through dinner.
+> 1) Those who need a dictionary to get through dinner.
 > 
->    2) Those who don't.
+> 2) Those who don't.
 > 
 > :
 >
