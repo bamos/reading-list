@@ -27,8 +27,8 @@ how I feel about various books.
 <!------------------------------------------------------------------------>
 
 ## Programming (Introductory)
-##  Dandamudi, Sivarama
-### [Guide to Assembly Language Programming in Linux](http://www.amazon.com/Guide-Assembly-Language-Programming-Linux/dp/0387258973)
+###  Dandamudi, Sivarama
+[Guide to Assembly Language Programming in Linux](http://www.amazon.com/Guide-Assembly-Language-Programming-Linux/dp/0387258973)
 + Date Finished: 2013.01.02
 + Rating: 9/10
 
