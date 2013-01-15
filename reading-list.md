@@ -8,6 +8,7 @@
 This contains a mostly unorganized list of books I'd like to read.
 Please, give me suggestions!
 
+## Nontechnical
 + Hofstadter, Douglas
   + Gödel, Escher, Bach
   + I Am a Strange Loop
@@ -44,3 +45,21 @@ Please, give me suggestions!
   + Love is the Cure
 + Mayle, Peter
   + A Year in Provence
+
+## Technical
++ Shore, James
+  + The Art of Agile Development
++ Glass, Robert
+  + Facts and Fallacies of Software Engineering
++ Hunt, Andy
+  + Pragmatic Programmer
++ Thomas, Dave
+  + Programming Ruby 1.9
++ Lopp, Michael
+  + Being Geek
++ Brian P. Hogan
+  + HTML5 & CSS3: Develop with Tomorrow’s Standards Today
++ why the lucky stiff
+  + Why's Poignant Guide to Ruby
++ Martin, Robert
+  + Clean Code: A Handbook of Agile Software Craftsmanship
