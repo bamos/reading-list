@@ -1,9 +1,11 @@
 [Back to Home](https://github.com/bamos/reading-list/blob/master/README.md)
-# Notes
+# Nontechnical Notes
+These notes are mostly from recreational reading I've done. I like to keep
+track of quotes. Reviews are already plentiful.
 
 ## Asimov, Isaac
 ### I, Robot
-+ Date Finished: 12/7/2011
++ Date Finished: 2011.12.07
 + Rating: 8/10
 
 ##### Quotes
@@ -13,7 +15,7 @@ Page 271
 
 ## Bujold, Lois
 ### The Warrior's Apprentice
-+ Date Finished: 11/20/2011
++ Date Finished: 2011.11.20
 + Rating: 6/10
 
 #### Quotes
@@ -22,7 +24,7 @@ Page 83
 
 ## Conroy, Pat
 ### The Prince of Tides
-+ Date Finished: 3/20/2011
++ Date Finished: 2011.03.20
 + Rating: 9/10
 
 #### Quotes
@@ -44,7 +46,7 @@ Page 239
 
 ## Crichton, Michael
 ### Prey
-+ Date Finished: 4/30/2012
++ Date Finished: 2012.04.30
 + Rating: 9/10
 
 #### Quotes
@@ -58,7 +60,7 @@ Page 274
 
 ## Fulghum, Robert
 ### All I Really Need to Know I Learned in Kindergarten
-+ Date Finished: 7/11/2011
++ Date Finished: 2011.07.11
 + Rating: 9/10
 
 #### Quotes
@@ -74,7 +76,7 @@ Page 157
 
 ## Gessen, Masha
 ### Perfect Rigor
-+ Date Finished: 1/5/2010
++ Date Finished: 2010.01.05
 + Rating: 7/10
 
 #### Quotes
@@ -90,7 +92,7 @@ Page 173
 
 ## Hawking, Stephen
 ### A Brief History of Time
-+ Date Finished: 10/5/2010
++ Date Finished: 2010.10.05
 + Rating: 7/10
 
 #### Quotes
@@ -104,7 +106,7 @@ Page 167
 > in a small area
 
 ### The Grand Design
-+ Date Finished: 9/13/2010
++ Date Finished: 2010.09.13
 + Rating: 4/10
 
 Page 5
@@ -112,7 +114,7 @@ Page 5
 
 ## Irving, John
 ### A Prayer for Owen Meany
-+ Date Finished: 10/10/2010
++ Date Finished: 2010.10.10
 + Rating: 8/10
 
 #### Quotes
@@ -124,7 +126,7 @@ Page 543
 
 ## Kaku, Michio
 ### Parallel Worlds
-+ Date Finished: 12/1/2010
++ Date Finished: 2010.12.01
 + Rating: 8/10
 
 #### Quotes
@@ -143,7 +145,7 @@ Page 296
 
 ## Lehrer, Jonah
 ### How We Decide
-+ Date Finished: 2/26/2012
++ Date Finished: 2012.02.26
 + Rating: 7/10
 
 #### Quotes
@@ -158,7 +160,7 @@ Page 155
 
 ## Martin, George R. R.
 ### A Game of Thrones
-+ Date Finished: 1/12/2012
++ Date Finished: 2012.01.12
 + Rating: 4/10
 
 #### Quotes
@@ -168,14 +170,9 @@ Page 383
 Page 407
 > “If friends can turn to enemies, enemies can become friends.”
 
-## McDowell, Gayle
-### The Google Resume
-+ Date Finished: 3/5/2012
-+ Rating: 7/10
-
 ## Neruda, Pablo
 ### I Explain a Few Things
-+ Date Finished: 12/20/2011
++ Date Finished: 2011.12.20
 + Rating: 9/10
 
 #### Quotes
@@ -200,7 +197,7 @@ Page 261
 
 ## Pausch, Randy
 ### The Last Lecture
-+ Date Finished: 7/6/2012
++ Date Finished: 2012.07.06
 + Rating: 9/10
 
 #### Quotes
@@ -208,7 +205,7 @@ TODO: Add
 
 ## Rand, Ayn
 ### Atlas Shrugged
-+ Date Finished: 6/22/2011
++ Date Finished: 2011.06.22
 + Rating: 8/10
 
 #### Quotes
@@ -223,7 +220,7 @@ Page 959
 > stand between the answer and his mind
 
 ### The Fountainhead
-+ Date Finished: 8/15/2011
++ Date Finished: 2011.08.15
 + Rating: 9/10
 
 #### Quotes
@@ -233,7 +230,7 @@ Page 541
 
 ## Rowling, J. K.
 ### Harry Potter and the Sorcerer's Stone
-+ Date Finished: 6/25/2011
++ Date Finished: 2011.06.25
 + Rating: 9/10
 
 #### Quotes
@@ -249,7 +246,7 @@ Page 297
 that are worst for them.
 
 ### Harry Potter and the Chamber of Secrets
-+ Date Finished: 6/26/2011
++ Date Finished: 2011.06.26
 + Rating: 9/10
 
 #### Quotes
@@ -258,11 +255,11 @@ Page 333
 > abilities."
 
 ### Harry Potter and the Prisoner of Azkaban
-+ Date Finished: 6/27/2011
++ Date Finished: 2011.06.27
 + Rating: 9/10		
 
 ### Harry Potter and the Goblet of Fire
-+ Date Finished: 6/29/2011
++ Date Finished: 2011.06.29
 + Rating: 9/10
 
 #### Quotes
@@ -275,7 +272,7 @@ Page 525
 > his inferiors, not his equals.
 
 ### Harry Potter and the Order of the Phoenix
-+ Date Finished: 7/3/2011
++ Date Finished: 2011.07.03
 + Rating: 9/10
 
 #### Quotes
@@ -287,7 +284,7 @@ Page 826
 > they forget what it was to be young.
 
 ### Harry Potter and the Half-Blood Prince
-+ Date Finished: 7/5/2011
++ Date Finished: 2011.07.05
 + Rating: 9/10
 
 #### Quotes
@@ -296,12 +293,12 @@ Page 96
 > wrong than being right"
 
 ### Harry Potter and the Deathly Hallows
-+ Date Finished: 7/10/2011
++ Date Finished: 2011.07.10
 + Rating: 9/10
 
 ## Sagan, Carl
 ### The Demon-Haunted World
-+ Date Finished: 8/3/2010
++ Date Finished: 2010.08.03
 + Rating: 8/10
 
 #### Quotes
@@ -410,7 +407,7 @@ Page 434
 
 ## Thoreau, Henry David
 ### Walden
-+ Date Finished: 7/17/2011
++ Date Finished: 2011.07.17
 + Rating: 6/10
 
 #### Quotes
@@ -429,11 +426,11 @@ Page 293
 
 ## Tolkein, J. R. R.
 ### The Hobbit or There and Back Again
-+ Date Finished: 12/17/2011
++ Date Finished: 2011.12.17
 + Rating: 8/10
 
 ### The Lord of The Rings, Book 1
-+ Date Finished: 12/20/2011
++ Date Finished: 2011.12.20
 + Rating: 8/10
 
 #### Quotes
@@ -442,7 +439,7 @@ Page 58
 it to them? Then do not be too eager to deal out death in judgement.
 
 ### The Lord of The Rings, Book 2
-+ Date Finished: 12/23/2011
++ Date Finished: 2011.12.23
 + Rating: 8/10
 
 #### Quotes
@@ -451,7 +448,7 @@ Page 339
 often upon the bowstring than upon the harp”
 
 ### The Lord of The Rings, Book 3
-+ Date Finished: 12/24/2011
++ Date Finished: 2011.12.24
 + Rating: 8/10
 
 #### Quotes
@@ -463,12 +460,12 @@ Page 571
 > “Often does hatred hurt itself!”
 
 ### The Lord of The Rings, Book 4
-+ Date Finished: 12/27/2011
++ Date Finished: 2011.12.27
 + Rating: 8/10
 
 
 ### The Lord of The Rings, Book 5
-+ Date Finished: 12/30/2011
++ Date Finished: 2011.12.30
 + Rating: 8/10
 
 #### Quotes
@@ -483,7 +480,7 @@ Page 797
 does not intend.
 
 ### The Lord of The Rings, Book 6
-+ Date Finished: 1/1/2012
++ Date Finished: 2012.01.01
 + Rating: 8/10
 
 #### Quotes
@@ -496,7 +493,7 @@ Page 958
 
 ## Various Authors
 ### This I Believe II
-+ Date Finished: 9/8/2011
++ Date Finished: 2011.09.08
 + Rating: 9/10
 
 #### Quotes
@@ -521,14 +518,9 @@ Page 148
 > There are natural streamlines in our lives. I find by letting go I can
 harness the complex currents of my life to propel me forward.
 
-## Velleman, Daniel
-### How to Prove It
-+ Date Finished: 12/6/2011
-+ Rating: 9/10
-
 ## Walls, Jeannette
 ### The Glass Castle
-+ Date Finished: 5/20/2012
++ Date Finished: 2012.05.20
 + Rating: 9/10
 
 #### Quotes
@@ -541,12 +533,12 @@ Page 216
 
 ## Wells, H. G.
 ### The Invisible Man
-+ Date Finished: 12/17/2010
++ Date Finished: 2010.12.17
 + Rating: 4/10
 
 ## Whitman, Walt
 ### Leaves of Grass
-+ Date Finished: 2/2/2012
++ Date Finished: 2012.02.02
 + Rating: 7/10
 
 #### Quotes

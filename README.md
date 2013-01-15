@@ -8,8 +8,11 @@ in an environment I'm comfortable in.
 
 ## Content and Navigation
 
-+ [Notes](http://github.com/bamos/reading-list/blob/master/notes.md)
-  on books I have read.
++ __Notes__ on books I have read.
+  + [Nontechnical Books](
+      http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md)
+  + [Technical Books](
+      http://github.com/bamos/reading-list/blob/master/notes-technical.md)
 + A [list](http://github.com/bamos/reading-list/blob/master/to-read.md)
   of books I want to read.
 
