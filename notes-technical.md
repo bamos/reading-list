@@ -1,4 +1,8 @@
-[Back to Home](https://github.com/bamos/reading-list/blob/master/README.md)
+[Home](https://github.com/bamos/reading-list/blob/master/README.md) | 
+[Nontechnical](http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md) | 
+[Technical](http://github.com/bamos/reading-list/blob/master/notes-technical.md) | 
+[List](http://github.com/bamos/reading-list/blob/master/to-read.md)
+
 # Technical Notes
 These notes are from a potpourri of technical reading for recreation, work,
 and school. I usually either take an abundance of notes or none for
