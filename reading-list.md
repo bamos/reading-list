@@ -47,6 +47,8 @@ Please, give me suggestions!
   + A Year in Provence
 
 ## Technical
++ Knuth, Donald
+  + Art of Computer Programming
 + Shore, James
   + The Art of Agile Development
 + Glass, Robert
