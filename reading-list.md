@@ -47,6 +47,10 @@ Please, give me suggestions!
   + A Year in Provence
 
 ## Technical
++ McConnell, Steve
+  + Code Complete
++ Gamma, Erlich, et al.
+  + Design Patterns: Elements of Reusable Object-Oriented Software
 + Knuth, Donald
   + Art of Computer Programming
 + Shore, James
