@@ -47,6 +47,10 @@ Please, give me suggestions!
   + A Year in Provence
 
 ## Technical
++ Leroy, Xavier and Remy, Didier
+  + Unix system programming in OCaml
++ Hickey, jason
+  + Introduction to Objective Caml
 + McConnell, Steve
   + Code Complete
 + Gamma, Erlich, et al.
