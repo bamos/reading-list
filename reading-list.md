@@ -45,6 +45,8 @@ Please, give me suggestions!
   + Love is the Cure
 + Mayle, Peter
   + A Year in Provence
++ Allen, David
+  + Getting Things Done
 
 ## Technical
 + Leroy, Xavier and Remy, Didier
