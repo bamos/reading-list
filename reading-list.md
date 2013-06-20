@@ -47,6 +47,8 @@ Please, give me suggestions!
   + A Year in Provence
 + Allen, David
   + Getting Things Done
++ Ned Vissini
+  + It's Kind of a Funny Story
 
 ## Technical
 + Leroy, Xavier and Remy, Didier
@@ -75,3 +77,5 @@ Please, give me suggestions!
   + Why's Poignant Guide to Ruby
 + Martin, Robert
   + Clean Code: A Handbook of Agile Software Craftsmanship
++ Hickey, Jason, et al.
+  + Real World OCaml

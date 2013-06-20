@@ -26,6 +26,16 @@ Page 271
 Page 83
 > Ninety percent of success seemed to lie in asking the right questions.
 
+## Collins, Suzanne
+### The Hunger Games
++ Date Finished: 2013.06.18
++ Rating: 8/10
+
+Page 42
+> But don't spend much time thinking about it.
+Whatever the truth is, I don't see how it will help
+me get food on the table.
+
 ## Conroy, Pat
 ### The Prince of Tides
 + Date Finished: 2011.03.20
