@@ -79,3 +79,5 @@ Please, give me suggestions!
   + Clean Code: A Handbook of Agile Software Craftsmanship
 + Hickey, Jason, et al.
   + Real World OCaml
++ Mecklenburg, et al.
+  + Managing Projects with GNU Make: Use the Power of GNU Make to Build Anything

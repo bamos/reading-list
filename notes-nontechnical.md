@@ -179,10 +179,38 @@ Page 155
 
 #### Quotes
 Page 383
-> “I think I will try and sleep. Wake me if we're about to die.”
+> I think I will try and sleep. Wake me if we're about to die.
 
 Page 407
-> “If friends can turn to enemies, enemies can become friends.”
+> If friends can turn to enemies, enemies can become friends.
+
+## Mayle, Peter
+### A Year in Provence
++ Date Finished: Stopped in August.
++ Rating: 4/10
+
+#### Quotes
+January
+> Every problem in Provence that couldn't be blamed on the politicians was
+> the fault of the sâcré vent which the Provenaux spoke about with a kind
+> of masochistic pride.
+
+February
+> Of course. All we needed were fifteen thousand Egyptian slaves
+and it would be done in no time.
+
+April
+> Our friend from Paris examined his empty glass with surprise, as if
+evaporation had taken place while he wasn't looking. I poured some more
+wine and he settled back in his chair, face tilted up to the sun.
+
+May
+> Tomorrow he will take up the mantle of the kamikaze pilot once again,
+but today it is Sunday in Provence, and life is to be enjoyed.
+
+July
+> "What a marvelous sunset," she said. "Yes," replied her husband.
+"Most impressive for such a small village."
 
 ## Neruda, Pablo
 ### I Explain a Few Things
