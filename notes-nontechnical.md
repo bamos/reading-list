@@ -126,6 +126,25 @@ Page 167
 Page 5
 > Philosophy is dead.
 
+## Huxley, Aldous
+### Brave New world
++ Date Finished: 2013.08.13
++ Rating: 7/10
+
+Page 4
+> Bokanovsky's Process is one of the major instruments of social stability!
+
+Page 13
+> A love of nature keeps no factories busy.
+It was decided to abolish the love of nature.
+
+Page 39
+> Words can be like X-rays, if you use them properly -
+they'll go through anything
+
+Page 91
+> Being mad's infectious I believe.
+
 ## Irving, John
 ### A Prayer for Owen Meany
 + Date Finished: 2010.10.10
