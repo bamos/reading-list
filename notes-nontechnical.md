@@ -534,8 +534,8 @@ it to them? Then do not be too eager to deal out death in judgement.
 
 #### Quotes
 Page 339
-> “We live now upon an island amid many perils, and our hands are more
-often upon the bowstring than upon the harp”
+> "We live now upon an island amid many perils, and our hands are more
+often upon the bowstring than upon the harp"
 
 ### The Lord of The Rings, Book 3
 + Date Finished: 2011.12.24
@@ -543,11 +543,11 @@ often upon the bowstring than upon the harp”
 
 #### Quotes
 Page 463
-> “I have become too hot. I must cool myself and think; for it is easier
-to shoult stop” than to do it.”
+> "I have become too hot. I must cool myself and think; for it is easier
+to shoult stop" than to do it."
 
 Page 571
-> “Often does hatred hurt itself!”
+> "Often does hatred hurt itself!"
 
 ### The Lord of The Rings, Book 4
 + Date Finished: 2011.12.27
