@@ -3,10 +3,7 @@
 [Technical Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md) | 
 [Reading List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
-# Nontechnical Notes
-These notes are mostly from recreational reading I've done. I like to keep
-track of quotes. Reviews are already plentiful.
-
+# Quotes.
 ## Asimov, Isaac
 ### I, Robot
 + Date Finished: 2011.12.07

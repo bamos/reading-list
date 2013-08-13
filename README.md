@@ -4,31 +4,13 @@
 [Reading List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
 # Reading List
-
-Welcome to my reading list!
-
-The idea behind this is to have something more lightweight than
-[Goodreads](http://www.goodreads.com/) (or related sites)
-in an environment I'm comfortable in.
-
 ## Content and Navigation
-
 + [Quotes](http://github.com/bamos/reading-list/blob/master/quotes.md)
 + [Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md)
   of technical books.
 + [Reading list](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
-## Suggest Something!
-
-Please suggest something via an issue (or however you desire) if you're
-reading this!
-
 ## Inspiration
-
-Among my few friends who give me reading suggestions (whom I am thankful
-for), I've found the following sources both useful and inspirational.
-
-### Other GitHub Reading Lists
 + [AnthonyMastrean/ReadingList](http://github.com/AnthonyMastrean/ReadingList)
 + [cmonty/reading-list](http://github.com/cmonty/reading-list)
 + [coryschires/reading-list](http://github.com/coryschires/reading-list)
