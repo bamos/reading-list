@@ -1,7 +1,7 @@
 [Home](https://github.com/bamos/reading-list/blob/master/README.md) | 
-[Nontechnical](http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md) | 
-[Technical](http://github.com/bamos/reading-list/blob/master/notes-technical.md) | 
-[List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
+[Quotes](http://github.com/bamos/reading-list/blob/master/quotes.md) | 
+[Technical Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md) | 
+[Reading List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
 # Reading List
 
@@ -13,13 +13,10 @@ in an environment I'm comfortable in.
 
 ## Content and Navigation
 
-+ __Notes__ on books I have read.
-  + [Nontechnical](
-      http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md)
-  + [Technical](
-      http://github.com/bamos/reading-list/blob/master/notes-technical.md)
-+ A [list](http://github.com/bamos/reading-list/blob/master/reading-list.md)
-  of books I want to read.
++ [Quotes](http://github.com/bamos/reading-list/blob/master/quotes.md)
++ [Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md)
+  of technical books.
++ [Reading list](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
 ## Suggest Something!
 

@@ -1,13 +1,9 @@
 [Home](https://github.com/bamos/reading-list/blob/master/README.md) | 
-[Nontechnical](http://github.com/bamos/reading-list/blob/master/notes-nontechnical.md) | 
-[Technical](http://github.com/bamos/reading-list/blob/master/notes-technical.md) | 
-[List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
+[Quotes](http://github.com/bamos/reading-list/blob/master/quotes.md) | 
+[Technical Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md) | 
+[Reading List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
 
-# Technical Notes
-These notes are from a potpourri of technical reading for recreation, work,
-and school. I usually either take an abundance of notes or none for
-this kind of work. I'll spare the superfluity and let my rankings show
-how I feel about various books.
+# Technical Ratings
 
 <!------------------------------------------------------------------------>
 
