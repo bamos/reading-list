@@ -9,6 +9,8 @@ This contains a mostly unorganized list of books I'd like to read.
 Please, give me suggestions!
 
 ## Nontechnical
++ Brooks Jr., Frederick
+  + The Mythical Man-Month
 + Hofstadter, Douglas
   + Gödel, Escher, Bach
   + I Am a Strange Loop
