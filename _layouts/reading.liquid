@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <style>
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+h1,h2 {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+}
+h1 { font-size: 26px }
+h2 { font-size: 20px }
+a {
+  color: #008cba;
+  cursor: auto;
+  text-decoration: none;
+}
+a:hover {text-decoration:underline;}
+#footer {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+  color: #666;
+}
+  </style>
+</head>
+<body>
+  <h1>{{ page.title}}</h1>
+  <h2>To Read</h2>
+  <ul>
+    {% for book in page.to-read %}
+      <li>{{ book[0] }} - {{ book[1] }}</li>
+    {% endfor %}
+  </ul>
+  <div id="footer">
+Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
+<a href="http://github.com/bamos/reading-list">Open-sourced on GitHub</a>.
+  </div>
+
+  <script src="//static.getclicky.com/js" type="text/javascript"></script>
+  <script type="text/javascript">
+try{ clicky.init(100602499); }catch(e){}
+  </script>
+</body>
+</html>
+

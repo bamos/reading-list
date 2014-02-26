@@ -1,8 +1,3 @@
-[Home](https://github.com/bamos/reading-list/blob/master/README.md) | 
-[Quotes](http://github.com/bamos/reading-list/blob/master/quotes.md) | 
-[Technical Ratings](http://github.com/bamos/reading-list/blob/master/technical-ratings.md) | 
-[Reading List](http://github.com/bamos/reading-list/blob/master/reading-list.md)
-
 # Quotes.
 ## Asimov, Isaac
 ### I, Robot

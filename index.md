@@ -1,0 +1,32 @@
+---
+layout: reading
+title: Reading List
+to-read:
+  - [Frederick Brooks Jr., The Mythical Man-Month]
+  - [Douglas Hofstadter, "Godel, Escher, Bach"]
+  - [Douglas Hofstadter, I Am a Strange Loop]
+  - [John Green, An Abundance of Katherines]
+  - [John Green, The Fault in Our Stars]
+  - [George Orwell, 1984]
+  - [Adams, Douglas, The Ultimate Hitchhiker's Guide]
+  - [Nolan and Johnson, Logan's Run]
+  - [Friedman, Thomas, The World is Flat]
+  - [Hesse, Herman, Siddhartha]
+  - [Collins, Suzanne, The Hunger Games]
+  - [Doyle, The Complete Sherlock Holmes]
+  - [Isaacson, Steve Jobs]
+  - [Elton John, Love is the Cure]
+  - [David Allen, Getting Things Done]
+  - [Ned Vissini, It's Kind of a Funny Story]
+  - [Jason Hickey, Introduction to Objective Caml]
+  - [Steve McConnell, Code Complete]
+  - [James Shore, The Art of Agile Development]
+  - [Robert Glass, Facts and Fallacies of Software Engineering]
+  - [Andy Hunt, Pragmatic Programmer]
+  - [Dave Thomas, Programming Ruby 1.9]
+  - [why the lucky stiff, Why's Poignant Guide to Ruby]
+  - [Martin, Clean Code]
+  - [Hickey, Jason, Real World OCaml]
+  - [Mecklenburg, Managing Projects with GNU Make]
+  - [Eric Ries, The Lean Startup]
+---
