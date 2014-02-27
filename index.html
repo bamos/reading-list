@@ -46,12 +46,12 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 
   <script src="//static.getclicky.com/js" type="text/javascript"></script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="/js/js-yaml.min.js"></script>
-  <script src="/js/handlebars-v1.3.0.js"></script>
+  <script src="js/js-yaml.min.js"></script>
+  <script src="js/handlebars-v1.3.0.js"></script>
   <script type="text/javascript">
 var client = new XMLHttpRequest();
 var tmpl = Handlebars.compile($('#list-tmpl').html());
-client.open('GET', '/to-read.yaml');
+client.open('GET', 'to-read.yaml');
 client.onreadystatechange = function() {
   var to_read = jsyaml.load(client.responseText);
   $("#to-read").html(tmpl(to_read));
