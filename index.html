@@ -28,7 +28,7 @@ a:hover {text-decoration:underline;}
 <body>
   <h1>Brandon Amos: Reading List</h1>
   <h2>To Read</h2>
-  <div id="to-read"/>
+  <div id="to-read"></div>
   <div id="footer">
 Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <a href="http://github.com/bamos/reading-list">Open-sourced on GitHub</a>.
@@ -51,7 +51,7 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
   <script type="text/javascript">
 var client = new XMLHttpRequest();
 var tmpl = Handlebars.compile($('#list-tmpl').html());
-client.open('GET', 'to-read.yaml');
+client.open('GET', 'data/to-read.yaml');
 client.onreadystatechange = function() {
   var to_read = jsyaml.load(client.responseText);
   $("#to-read").html(tmpl(to_read));
