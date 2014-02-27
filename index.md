@@ -50,8 +50,8 @@ to-read:
     - Why's Poignant Guide to Ruby
   - - Martin
     - Clean Code
-  - - Hickey
-    - Jason, Real World OCaml
+  - - Jason Hickey
+    - Real World OCaml
   - - Mecklenburg
     - Managing Projects with GNU Make
   - - Eric Ries
