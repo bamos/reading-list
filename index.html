@@ -54,6 +54,9 @@ var tmpl = Handlebars.compile($('#list-tmpl').html());
 client.open('GET', 'data/to-read.yaml');
 client.onreadystatechange = function() {
   var to_read = jsyaml.load(client.responseText);
+  to_read.sort(function(a,b) {
+    return a.author.localeCompare(b.author);
+  });
   $("#to-read").html(tmpl(to_read));
 }
 client.send();
