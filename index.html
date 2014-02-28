@@ -25,20 +25,33 @@ a:hover {text-decoration:underline;}
 }
   </style>
 </head>
-<body>
+<body onload="loadLists()">
   <h1>Brandon Amos: Reading List</h1>
-  <h2>To Read</h2>
-  <div id="to-read"></div>
+  <h2>To Read</h2><div id="to-read"></div>
+  <h2>Finished</h2><div id="finished"></div>
   <div id="footer">
 Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <a href="http://github.com/bamos/reading-list">Open-sourced on GitHub</a>.
   </div>
 
-  <script id="list-tmpl" type="text/x-handlebars-template">
+  <script id="to-read-tmpl" type="text/x-handlebars-template">
 <ul>
   {{#each this}}
     <li>
       {{ this.author }} - {{ this.title }}
+    </li>
+  {{/each}}
+</ul>
+  </script>
+  <script id="finished-tmpl" type="text/x-handlebars-template">
+<ul>
+  {{#each this}}
+    <li>
+      {{ this.author }} - {{ this.title }}
+      <ul>
+        <li>Finished: {{this.finished}}
+        <li>Rating: {{this.rating}}
+      </ul>
     </li>
   {{/each}}
 </ul>
@@ -49,17 +62,44 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
   <script src="js/js-yaml.min.js"></script>
   <script src="js/handlebars-v1.3.0.js"></script>
   <script type="text/javascript">
-var client = new XMLHttpRequest();
-var tmpl = Handlebars.compile($('#list-tmpl').html());
-client.open('GET', 'data/to-read.yaml');
-client.onreadystatechange = function() {
-  var to_read = jsyaml.load(client.responseText);
-  to_read.sort(function(a,b) {
-    return a.author.localeCompare(b.author);
-  });
-  $("#to-read").html(tmpl(to_read));
+var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
+var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
+function loadYAML(name, f) {
+  var client = new XMLHttpRequest();
+  client.open('GET', 'data/' + name + '.yaml');
+  client.onreadystatechange = function() {
+    var yaml = jsyaml.load(client.responseText);
+    if (yaml) {
+      f(yaml);
+    }
+  }
+  client.send();
 }
-client.send();
+function loadLists() {
+  loadYAML("to-read", function(yaml) {
+    yaml.sort(function(a,b) {
+      return a.author.localeCompare(b.author);
+    });
+    $("#to-read").html(to_read_tmpl(yaml));
+  });
+  loadYAML("finished", function(yaml) {
+    yaml.sort(function(a,b) {
+      if (a.finished > b.finished) return -1;
+      if (a.finished < b.finished) return 1;
+      return 0;
+    });
+    function dateString(d) {
+      return d.getFullYear().toString() + "/" +
+        d.getMonth().toString() + "/" +
+        d.getDate().toString();
+    }
+    var len = yaml.length;
+    for (var i = 0; i < len; i++) {
+      yaml[i].finished = dateString(yaml[i].finished);
+    }
+    $("#finished").html(finished_tmpl(yaml));
+  });
+}
 try{ clicky.init(100602499); }catch(e){}
   </script>
 </body>
