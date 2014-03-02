@@ -8,6 +8,7 @@
   <h1>Brandon Amos: Reading List</h1>
   <h2>To Read</h2><div id="to-read"></div>
   <h2>Finished</h2><div id="finished"></div>
+  <h2>Compilations</h2><div id="compilations"></div>
   <div id="footer">
 Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <a href="http://github.com/bamos/reading-list">Open-sourced on GitHub</a>.
@@ -35,6 +36,16 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
   {{/each}}
 </ul>
   </script>
+  <script id="comp-tmpl" type="text/x-handlebars-template">
+<ul>
+  {{#each this}}
+    <li>
+      {{ this.title }}
+    </li>
+  {{/each}}
+</ul>
+  </script>
+
 
   <script src="//static.getclicky.com/js" type="text/javascript"></script>
   <script src="js/jquery-1.11.0.min.js"></script>
@@ -43,6 +54,7 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
   <script type="text/javascript">
 var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
 var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
+var comp_tmpl = Handlebars.compile($('#comp-tmpl').html());
 function loadYAML(name, f) {
   var client = new XMLHttpRequest();
   client.open('GET', 'data/' + name + '.yaml');
@@ -77,6 +89,12 @@ function loadLists() {
       yaml[i].finished = dateString(yaml[i].finished);
     }
     $("#finished").html(finished_tmpl(yaml));
+  });
+  loadYAML("compilations", function(yaml) {
+    yaml.sort(function(a,b) {
+      return a.title.localeCompare(b.title);
+    });
+    $("#compilations").html(comp_tmpl(yaml));
   });
 }
 try{ clicky.init(100602499); }catch(e){}
