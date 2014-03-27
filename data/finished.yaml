@@ -23,7 +23,7 @@
   rating: 8/10
   quotes:
     - page: 42
-      content: But don't spend much time thinking about it. 
+      content: But don't spend much time thinking about it.
         Whatever the truth is,
         I don't see how it will help me get food on the table.
 - author: Pat Conroy
@@ -278,7 +278,7 @@
 - author: J. K. Rowling
   title: Harry Potter and the Prisoner of Azkaban
   finished: 2011-06-27
-  rating: 9/10		
+  rating: 9/10
 
 - author: J. K. Rowling
   title: Harry Potter and the Goblet of Fire
@@ -531,7 +531,7 @@
   title: The Invisible Man
   finished: 2010-12-17
   rating: 4/10
-  
+
 - author: Walt Whitman
   title: Leaves of Grass
   finished: 2012-02-02
