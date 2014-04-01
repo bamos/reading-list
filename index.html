@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>Brandon Amos: Reading List</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="test/css" href="css/modal.css">
 </head>
 <body onload="loadLists()">
   <h1>Brandon Amos: Reading List</h1>
@@ -10,7 +11,7 @@
   <h2>Finished</h2><div id="finished"></div>
   <h2>Compilations</h2><div id="compilations"></div>
   <div id="footer">
-Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
+Created by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <a href="http://github.com/bamos/reading-list">Open-sourced on GitHub</a>.
   </div>
 
@@ -18,7 +19,7 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <ul>
   {{#each this}}
     <li>
-      {{ this.author }} - {{ this.title }}
+      {{this.author}} - {{this.title}}
     </li>
   {{/each}}
 </ul>
@@ -27,12 +28,41 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <ul>
   {{#each this}}
     <li>
-      {{ this.author }} - {{ this.title }}
+      {{this.author}} - {{this.title}}
+      {{#if this.quotes}}
+        <small>[<a href="#{{this.author}}{{this.title}}">Quotes</a>]</small>
+      {{/if}}
       <ul>
         <li>Finished: {{this.finished}}
         <li>Rating: {{this.rating}}
       </ul>
     </li>
+    {{#if this.quotes}}
+      <section class="modal--show" id="{{this.author}}{{this.title}}"
+        tabindex="-1" role="dialog" aria-labelledby="label-show"
+        aria-hidden="true">
+
+        <div class="modal-inner">
+          <header><h2 id="label-show">{{this.title }} Quotes</h2></header>
+
+          <div class="modal-content">
+            <p>
+              <ul>
+                {{#each this.quotes }}
+                  <li>
+                    <strong>Page {{this.page}}.</strong>
+                    {{this.content}}
+                  </li>
+                {{/each}}
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <a href="#!" class="modal-close" title="Close this modal"
+          data-dismiss="modal" data-close="Close">&times;</a>
+      </section>
+    {{/if}}
   {{/each}}
 </ul>
   </script>
@@ -40,17 +70,17 @@ Crafted by <a href="http://bamos.io/about">Brandon Amos</a>. |
 <ul>
   {{#each this}}
     <li>
-      <a href='{{ this.url }}' >{{ this.title }}</a>
+      <a href='{{this.url}}' >{{this.title}}</a>
     </li>
   {{/each}}
 </ul>
   </script>
 
-
   <script src="//static.getclicky.com/js" type="text/javascript"></script>
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/js-yaml.min.js"></script>
   <script src="js/handlebars-v1.3.0.js"></script>
+  <script src="js/modal.js"></script>
   <script type="text/javascript">
 var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
 var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
@@ -97,6 +127,7 @@ function loadLists() {
     $("#compilations").html(comp_tmpl(yaml));
   });
 }
+
 try{ clicky.init(100602499); }catch(e){}
   </script>
 </body>
