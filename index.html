@@ -111,8 +111,8 @@ function loadLists() {
     });
     function dateString(d) {
       return d.getFullYear().toString() + "/" +
-        d.getMonth().toString() + "/" +
-        d.getDate().toString();
+        (d.getMonth() + 1).toString() + "/" +
+        (d.getDate() + 1).toString();
     }
     var len = yaml.length;
     for (var i = 0; i < len; i++) {
