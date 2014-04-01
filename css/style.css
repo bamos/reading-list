@@ -5,7 +5,7 @@ h1,h2 {
   line-height: 1.1;
 }
 h1 { font-size: 26px }
-h2 { font-size: 20px }
+h2 { display: inline; font-size: 20px }
 a {
   color: #008cba;
   cursor: auto;
