@@ -1,3 +1,27 @@
+- author: John Steinbeck
+  title: East of Eden
+  finished: 2014-05-18
+  rate: 8/10
+  quotes:
+    - page: 9
+      content: You can boast about anything if it’s all you have.
+        Maybe the less you have, the more you are required to boast.
+    - page: 110
+      content: No one who is young is ever going to be old.
+    - page: 271
+      content: So often men trip be being in a rush.
+    - page: 390
+      content: Aron was content to be part of his world, but Cal must change it.
+    - page: 462
+      content: In uncertainty I am certain.
+    - page: 533
+      content: A war comes always to someone else.
+    - page: 574
+      content: Just follow the rules and relax. You aren't running the war.
+    - page: 577
+      content: He had no idea where he had got his picture of academic life —
+        perhaps from the Doré illustrations of Dante’s Inferno with its massed
+        and radiant angels. Leland Stanford University was not like that.
 - author: Isaac Asimov
   title: I, Robot
   finished: 2011-12-07
