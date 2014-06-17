@@ -1,3 +1,16 @@
+- author: Frederick Brooks
+  title: The Mythical Man Month
+  finished: 2014-06-17
+  rating: 6/10
+  quotes:
+    - page: 13
+      content: The programmer, like the poet, works only slightly removed
+        from pure thought-stuff.
+    - page: 18
+      content: Perhaps it is merely that computers are young,
+        programmers are younger, and the young are always optimists.
+    - page: 37
+      content: Neither function alone nor simplicity alone defines a good design.
 - author: John Steinbeck
   title: East of Eden
   finished: 2014-05-18
