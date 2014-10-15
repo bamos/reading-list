@@ -35,6 +35,14 @@ Do get in contact if you'd like me to check out and link your list.
 + [jamesemorgan/reading-list](http://github.com/jamesemorgan/reading-list)
 + [jaredcacurak/Reading-List](http://github.com/jaredcacurak/Reading-List)
 
+# Why not just use a hosted solution?
+Simply, preference.
+[goodreads][goodreads] provides an amazing hosted reading list
+service and community.
+However, I prefer managing my lists in plaintext with vim
+and being able to hack on any part of the system if
+I want a new or different feature.
+
 [www]: http://bamos.io/reading-list
 [gh-pages]: https://pages.github.com/
 [yaml]: http://www.yaml.org/
@@ -43,3 +51,4 @@ Do get in contact if you'd like me to check out and link your list.
 [js-yaml]: https://github.com/nodeca/js-yaml
 [handlebars.js]: https://github.com/wycats/handlebars.js
 [css-modal]: https://github.com/drublic/css-modal
+[goodreads]: http://www.goodreads.com/
