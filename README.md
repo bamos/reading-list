@@ -10,6 +10,7 @@ Following are screenshots of the data and web pages.
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/page.png)
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/quotes.png)
 
+# Workflow and Implementation
 My workflow for updating my list uses `gh-pages` as the default
 branch. I modify the [YAML][yaml] files in the [data][data] directory
 and commit/push. GitHub pages will publish the new content,
@@ -20,6 +21,7 @@ The modals are created with [drublic/css-modal][css-modal].
 Very clearly, I'm not a frontend developer and welcome
 any pull requests with improvements.
 
+# Inspiration
 I was inspired to create a GitHub-hosted reading list by seeing
 similar projects by other people.
 Following is a list of repositories I've found.
