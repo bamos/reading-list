@@ -3,7 +3,10 @@ My goal is to have version-controlled plaintext list with
 minimal hosting overhead, which I achieve through static hosting
 on [GitHub pages][gh-pages].
 The online version is available [here][www].
+Following are screenshots of the data and web pages.
 
+![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/to-read-yaml.png)
+![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/finished-yaml.png)
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/page.png)
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/screenshots/quotes.png)
 
