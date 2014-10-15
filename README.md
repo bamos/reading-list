@@ -25,7 +25,7 @@ any pull requests with improvements.
 I was inspired to create a GitHub-hosted reading list by seeing
 similar projects by other people.
 Following is a list of repositories I've found.
-Do get in contact if you'd like me to check out and link your list.
+Do get in contact if you'd like me to check out and link to your list.
 
 + [cmonty/reading-list](http://github.com/cmonty/reading-list)
 + [coryschires/reading-list](http://github.com/coryschires/reading-list)
