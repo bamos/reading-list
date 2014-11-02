@@ -27,13 +27,31 @@ similar projects by other people.
 Following is a list of repositories I've found.
 Do get in contact if you'd like me to check out and link to your list.
 
-+ [cmonty/reading-list](http://github.com/cmonty/reading-list)
-+ [coryschires/reading-list](http://github.com/coryschires/reading-list)
-+ [DavidRagone/reading\_list](http://github.com/DavidRagone/reading_list)
-+ [eightbitraptor/reading\_list](http://github.com/eightbitraptor/reading_list)
-+ [gbtekkie/ReadingList](http://github.com/gbtekkie/ReadingList)
-+ [jamesemorgan/reading-list](http://github.com/jamesemorgan/reading-list)
-+ [jaredcacurak/Reading-List](http://github.com/jaredcacurak/Reading-List)
+<!--
+To generate the following list, install https://github.com/jacquev6/PyGithub
+and download the `github-repo-summary.py` script from
+https://github.com/bamos/python-scripts/blob/master/python3/github-repo-summary.py.
+Please add projects to the list in the comment and in the table below.
+
+github-repo-summary.py \
+  cmonty/reading-list \
+  coryschires/reading-list \
+  DavidRagone/reading\_list \
+  eightbitraptor/reading\_list \
+  gbtekkie/ReadingList \
+  jaredcacurak/Reading-List
+-->
+
+Generated on 2014-11-02, see the Markdown source of this file for more details.
+
+Name | Stargazers | Description
+----|----|----
+[cmonty/reading-list](https://github.com/cmonty/reading-list) | 3 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
+[coryschires/reading-list](https://github.com/coryschires/reading-list) | 17 | List of books and screencasts related to development, user experience design, and entrepreneurship.
+[DavidRagone/reading_list](https://github.com/DavidRagone/reading_list) | 1 | List of books I have read related to development, user experience design, and entrepreneurship
+[eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 8 |
+[gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
+[jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 2 | My reading list.
 
 # Why not just use a hosted solution?
 Simply, preference.
