@@ -110,6 +110,7 @@ Created by <a href="http://bamos.io/about">Brandon Amos</a>. |
   <script src="js/js-yaml.min.js"></script>
   <script src="js/handlebars-v1.3.0.js"></script>
   <script src="js/modal.js"></script>
+  <script src="js/sp.js"></script>
   <script type="text/javascript">
 var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
 var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
@@ -158,16 +159,11 @@ function loadLists() {
 }
 
 try{ clicky.init(100602499); }catch(e){}
-var _paq = _paq || [];
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-  var u="//eclcs77.ugrad.cs.cmu.edu/piwik/";
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
-  _paq.push(['setSiteId', 1]);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-})();
+try {
+  var snowplowTracker = Snowplow.getTrackerUrl('derecho.elijah.cs.cmu.edu:8080');
+  snowplowTracker.enableLinkTracking();
+  snowplowTracker.trackPageView();
+} catch (err) {}
   </script>
 </body>
 </html>
