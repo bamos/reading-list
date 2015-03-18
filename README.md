@@ -61,6 +61,19 @@ However, I prefer managing my lists in plaintext with vim
 and being able to hack on any part of the system if
 I want a new or different feature.
 
+# Credits and Licensing
+All portions are
+[MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)
+by Brandon Amos unless otherwise noted.
+
+The HTML uses the following projects and modified portions
+remain under the original license.
+
+| Project | License |
+|---|---|
+| [Twitter bootstrap](https://github.com/twbs/bootstrap) | MIT |
+| [IronSummitMedia/startbootstrap](https://github.com/IronSummitMedia/startbootstrap) grayscale | Apache 2 |
+
 [www]: http://bamos.io/reading-list
 [gh-pages]: https://pages.github.com/
 [yaml]: http://www.yaml.org/
