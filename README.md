@@ -72,7 +72,7 @@ remain under the original license.
 | Project | License |
 |---|---|
 | [Twitter bootstrap](https://github.com/twbs/bootstrap) | MIT |
-| [IronSummitMedia/startbootstrap](https://github.com/IronSummitMedia/startbootstrap) grayscale | Apache 2 |
+| [IronSummitMedia/startbootstrap](https://github.com/IronSummitMedia/startbootstrap)'s grayscale theme | Apache 2 |
 
 [www]: http://bamos.io/reading-list
 [gh-pages]: https://pages.github.com/
