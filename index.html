@@ -128,18 +128,22 @@
 </ul>
   </script>
   <script id="finished-tmpl" type="text/x-handlebars-template">
-<ul>
   {{#each this}}
-    <li>
-      {{this.author}} - {{this.title}}
+    <h3>{{this.author}} - {{this.title}}</h3>
       <!-- {{#if this.quotes}} -->
         <!-- <small>[<a href="#{{this.author}}{{this.title}}">Quotes</a>]</small> -->
       <!-- {{/if}} -->
-      <ul>
-        <li>Finished: {{this.finished}}
-        <li>Rating: {{this.rating}}
-      </ul>
-    </li>
+        <div class="row">
+          <div class="col-md-6">
+            {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
+            {{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
+          </div>
+          <div class="col-md-6">
+            <span class="pull-right">
+              {{this.finished}}
+            </span>
+          </div>
+        </div>
     <!-- {{#if this.quotes}} -->
     <!--   <section class="modal--show" id="{{this.author}}{{this.title}}" -->
     <!--     tabindex="-1" role="dialog" aria-labelledby="label-show" -->
@@ -167,7 +171,6 @@
     <!--   </section> -->
     <!-- {{/if}} -->
   {{/each}}
-</ul>
   </script>
   <script id="comp-tmpl" type="text/x-handlebars-template">
 <ul>
@@ -190,6 +193,13 @@
 var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
 var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
 var comp_tmpl = Handlebars.compile($('#comp-tmpl').html());
+Handlebars.registerHelper('for', function(from, to, block) {
+  var accum = '';
+  for(var i = from; i < to; ++i) {
+    accum += block.fn(i);
+  }
+  return accum;
+});
 function loadYAML(name, f) {
   var client = new XMLHttpRequest();
   client.open('GET', 'data/' + name + '.yaml');

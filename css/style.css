@@ -6,6 +6,7 @@ h1,h2 {
 }
 h1 { font-size: 26px }
 h2 { display: inline; font-size: 20px }
+h3 { display: inline; font-size: 20px }
 a {
   color: #008cba;
   cursor: auto;

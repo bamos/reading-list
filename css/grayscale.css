@@ -23,11 +23,10 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
+    margin: 1em 0 0 0;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    /* font-weight: 700; */
+    /* letter-spacing: 1px; */
 }
 
 p {
