@@ -122,14 +122,14 @@
 <ul>
   {{#each this}}
     <li>
-      {{this.author}} - {{this.title}}
+      {{this.author}}: <em>{{this.title}}</em>
     </li>
   {{/each}}
 </ul>
   </script>
   <script id="finished-tmpl" type="text/x-handlebars-template">
   {{#each this}}
-    <h3>{{this.author}} - {{this.title}}</h3>
+    <h3>{{this.author}}: <em>{{this.title}}</em></h3>
         <div class="row">
           <div class="col-md-4">
             {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
