@@ -130,46 +130,52 @@
   <script id="finished-tmpl" type="text/x-handlebars-template">
   {{#each this}}
     <h3>{{this.author}} - {{this.title}}</h3>
-      <!-- {{#if this.quotes}} -->
-        <!-- <small>[<a href="#{{this.author}}{{this.title}}">Quotes</a>]</small> -->
-      <!-- {{/if}} -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-4">
             {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
             {{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
+            <center>
+              {{#if this.quotes}}
+                <a href="#" data-toggle="modal" data-target="#modalDisp">
+                  Quotes
+                </a>
+              {{/if}}
+            </center>
+          </div>
+          <div class="col-md-4">
             <span class="pull-right">
               {{this.finished}}
             </span>
           </div>
         </div>
-    <!-- {{#if this.quotes}} -->
-    <!--   <section class="modal--show" id="{{this.author}}{{this.title}}" -->
-    <!--     tabindex="-1" role="dialog" aria-labelledby="label-show" -->
-    <!--     aria-hidden="true"> -->
+        <!-- {{#if this.quotes}} -->
+        <!--   <section class="modal--show" id="{{this.author}}{{this.title}}" -->
+        <!--     tabindex="-1" role="dialog" aria-labelledby="label-show" -->
+        <!--     aria-hidden="true"> -->
 
-    <!--     <div class="modal-inner"> -->
-    <!--       <header><h2 id="label-show">{{this.title }} Quotes</h2></header> -->
+        <!--     <div class="modal-inner"> -->
+        <!--       <header><h2 id="label-show">{{this.title }} Quotes</h2></header> -->
 
-    <!--       <div class="modal-content"> -->
-    <!--         <p> -->
-    <!--           <ul> -->
-    <!--             {{#each this.quotes }} -->
-    <!--               <li> -->
-    <!--                 <strong>Page {{this.page}}.</strong> -->
-    <!--                 {{this.content}} -->
-    <!--               </li> -->
-    <!--             {{/each}} -->
-    <!--           </ul> -->
-    <!--         </p> -->
-    <!--       </div> -->
-    <!--     </div> -->
+        <!--       <div class="modal-content"> -->
+        <!--         <p> -->
+        <!--           <ul> -->
+        <!--             {{#each this.quotes }} -->
+        <!--               <li> -->
+        <!--                 <strong>Page {{this.page}}.</strong> -->
+        <!--                 {{this.content}} -->
+        <!--               </li> -->
+        <!--             {{/each}} -->
+        <!--           </ul> -->
+        <!--         </p> -->
+        <!--       </div> -->
+        <!--     </div> -->
 
-    <!--     <a href="#!" class="modal-close" title="Close this modal" -->
-    <!--       data-dismiss="modal" data-close="Close">&times;</a> -->
-    <!--   </section> -->
-    <!-- {{/if}} -->
+        <!--     <a href="#!" class="modal-close" title="Close this modal" -->
+        <!--       data-dismiss="modal" data-close="Close">&times;</a> -->
+        <!--   </section> -->
+        <!-- {{/if}} -->
   {{/each}}
   </script>
   <script id="comp-tmpl" type="text/x-handlebars-template">
@@ -181,6 +187,27 @@
   {{/each}}
 </ul>
   </script>
+
+  <div class="modal fade" id="modalDisp" tabindex="-1" role="dialog"
+       aria-labelledby="modalDispLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"
+                  aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="modalDispLabel">TODO: Title</h4>
+        </div>
+        <div class="modal-body">
+          TODO: Body
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="//static.getclicky.com/js" type="text/javascript"></script>
   <script src="js/jquery-1.11.0.min.js"></script>
