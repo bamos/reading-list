@@ -1,12 +1,21 @@
 var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
 var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
 var comp_tmpl = Handlebars.compile($('#comp-tmpl').html());
+var quotes_body_tmpl = Handlebars.compile($('#quotes-body-tmpl').html());
+
+var to_read_yaml = null;
+var finished_yaml = null;
+var compilations_yaml = null;
+
 Handlebars.registerHelper('for', function(from, to, block) {
   var accum = '';
   for(var i = from; i < to; ++i) {
     accum += block.fn(i);
   }
   return accum;
+});
+Handlebars.registerHelper('escape', function(variable) {
+  return variable.replace(/(['"])/g, '\\$1');
 });
 function loadYAML(name, f) {
   var client = new XMLHttpRequest();
@@ -25,6 +34,7 @@ function loadLists() {
       return a.author.localeCompare(b.author);
     });
     $("#to-read").html(to_read_tmpl(yaml));
+    to_read_yaml = yaml;
   });
   loadYAML("finished", function(yaml) {
     yaml.sort(function(a,b) {
@@ -42,14 +52,33 @@ function loadLists() {
       yaml[i].finished = dateString(yaml[i].finished);
     }
     $("#finished").html(finished_tmpl(yaml));
+    finished_yaml = yaml;
   });
   loadYAML("compilations", function(yaml) {
     yaml.sort(function(a,b) {
       return a.title.localeCompare(b.title);
     });
     $("#compilations").html(comp_tmpl(yaml));
+    compilations_yaml = yaml;
   });
 }
+
+function showModal(title,yaml,idx) {
+    console.log(yaml[idx]);
+    bootbox.dialog({
+        message: quotes_body_tmpl(yaml[idx]),
+        title: title,
+        onEscape: function() {}
+    });
+}
+
+// Close the modal dialog if the background of the document is clicked.
+// Reference: https://github.com/makeusabrew/bootbox/issues/210
+$(document).on('click', '.bootbox', function(){
+    var classname = event.target.className;
+    if(classname && !$('.' + classname).parents('.modal-dialog').length)
+        bootbox.hideAll();
+});
 
 try{ clicky.init(100602499); }catch(e){}
 try {

@@ -1,5 +1,5 @@
 - author: Richard Feynman
-  title: Surely You're Joking, Mr. Feynman
+  title: "Surely You're Joking, Mr. Feynman"
   finished: 2015-03-03
   rating: 9
   quotes:
@@ -7,15 +7,15 @@
       content: The trouble with computers is you play with
         them. They are so wonderful.
     - page: 255
-      content:  I'll never make that mistake again,
-        reading the experts' opinions.
+      content:  "I'll never make that mistake again,
+        reading the experts' opinions."
     - page: 322
-      content: I didn't know anything about music,
+      content: "I didn't know anything about music,
         which, as far as I could tell, was just drumming
-        with notes.
+        with notes."
     - page: 343
-      content: You should not fool the layman
-        when you're talking as a scientist.
+      content: "You should not fool the layman
+        when you're talking as a scientist."
 - author: Frederick Brooks
   title: The Mythical Man Month
   finished: 2014-06-17

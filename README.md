@@ -70,6 +70,7 @@ Modifications remain under the original license.
 |---|---|---|
 | [Twitter bootstrap](https://github.com/twbs/bootstrap) | No | MIT |
 | [IronSummitMedia/startbootstrap-grayscale](https://github.com/IronSummitMedia/startbootstrap-grayscale) | Yes | Apache 2 |
+| [makeusebrew/bootbox](https://github.com/makeusabrew/bootbox) | No | MIT |
 | [Flickr Photo](https://flic.kr/p/rnazyb) | Yes | [cc by-nc-sa 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) |
 
 [www]: http://bamos.io/reading-list
