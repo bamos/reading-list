@@ -1,0 +1,25 @@
+{{#each this}}
+<h3>{{this.author}}: <em>{{this.title}}</em></h3>
+<div class="row">
+  <div class="col-md-4">
+    {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
+    {{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
+  </div>
+  <div class="col-md-4">
+    <center>
+      {{#if this.quotes}}
+      <a href="javascript:void(0)"
+         onclick="showModal('{{ escape this.title}}: Quotes',
+                  finished_yaml, {{@index}})">
+        Quotes
+      </a>
+      {{/if}}
+    </center>
+  </div>
+  <div class="col-md-4">
+    <span class="pull-right">
+      {{this.finished}}
+    </span>
+  </div>
+</div>
+{{/each}}

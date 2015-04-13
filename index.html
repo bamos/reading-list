@@ -21,8 +21,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"
-        onload="loadLists()">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
@@ -117,62 +116,6 @@
         </div>
       </div>
     </section>
-
-    <script id="to-read-tmpl" type="text/x-handlebars-template">
-      <ul>
-        {{#each this}}
-        <li>
-          {{this.author}}: <em>{{this.title}}</em>
-        </li>
-        {{/each}}
-      </ul>
-    </script>
-    <script id="finished-tmpl" type="text/x-handlebars-template">
-      {{#each this}}
-      <h3>{{this.author}}: <em>{{this.title}}</em></h3>
-      <div class="row">
-        <div class="col-md-4">
-          {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
-          {{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
-        </div>
-        <div class="col-md-4">
-          <center>
-            {{#if this.quotes}}
-            <a href="javascript:void(0)"
-               onclick="showModal('{{ escape this.title}}: Quotes',
-                        finished_yaml, {{@index}})">
-              Quotes
-            </a>
-            {{/if}}
-          </center>
-        </div>
-        <div class="col-md-4">
-          <span class="pull-right">
-            {{this.finished}}
-          </span>
-        </div>
-      </div>
-      {{/each}}
-    </script>
-    <script id="comp-tmpl" type="text/x-handlebars-template">
-      <ul>
-        {{#each this}}
-        <li>
-          <a href='{{this.url}}' >{{this.title}}</a>
-        </li>
-        {{/each}}
-      </ul>
-    </script>
-    <script id="quotes-body-tmpl" type="text/x-handlebars-template">
-      <ul>
-        {{#each this.quotes }}
-        <li>
-          <strong>Page {{this.page}}.</strong>
-          {{this.content}}
-        </li>
-        {{/each}}
-      </ul>
-    </script>
 
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
 

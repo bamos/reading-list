@@ -1,22 +1,20 @@
-var to_read_tmpl = Handlebars.compile($('#to-read-tmpl').html());
-var finished_tmpl = Handlebars.compile($('#finished-tmpl').html());
-var comp_tmpl = Handlebars.compile($('#comp-tmpl').html());
-var quotes_body_tmpl = Handlebars.compile($('#quotes-body-tmpl').html());
+// http://www.jblotus.com/2011/05/24/keeping-your-handlebars-js-templates-organized/
+function getTemplateAjax(path, callback) {
+    var source;
+    var template;
 
-var to_read_yaml = null;
-var finished_yaml = null;
-var compilations_yaml = null;
+    $.ajax({
+      url: path,
+        success: function(data) {
+          source    = data;
+          template  = Handlebars.compile(source);
 
-Handlebars.registerHelper('for', function(from, to, block) {
-    var accum = '';
-    for(var i = from; i < to; ++i) {
-        accum += block.fn(i);
-    }
-    return accum;
-});
-Handlebars.registerHelper('escape', function(variable) {
-    return variable.replace(/(['"])/g, '\\$1');
-});
+          //execute the callback if passed
+          if (callback) callback(template);
+        }
+    });
+}
+
 function loadYAML(name, f) {
     var client = new XMLHttpRequest();
     client.open('GET', 'data/' + name + '.yaml');
@@ -28,48 +26,56 @@ function loadYAML(name, f) {
     }
     client.send();
 }
+
 function loadLists() {
-    loadYAML("to-read", function(yaml) {
-        yaml.sort(function(a,b) {
-            return a.author.localeCompare(b.author);
+    getTemplateAjax('templates/to-read.hbars.html', function(tmpl) {
+        loadYAML("to-read", function(yaml) {
+            yaml.sort(function(a,b) {
+                return a.author.localeCompare(b.author);
+            });
+            $("#to-read").html(tmpl(yaml));
         });
-        $("#to-read").html(to_read_tmpl(yaml));
-        to_read_yaml = yaml;
     });
-    loadYAML("finished", function(yaml) {
-        yaml.sort(function(a,b) {
-            if (a.finished > b.finished) return -1;
-            if (a.finished < b.finished) return 1;
-            return 0;
+
+    getTemplateAjax('templates/finished.hbars.html', function(tmpl) {
+        loadYAML("finished", function(yaml) {
+            yaml.sort(function(a,b) {
+                if (a.finished > b.finished) return -1;
+                if (a.finished < b.finished) return 1;
+                return 0;
+            });
+            function dateString(d) {
+                return d.getFullYear().toString() + "/" +
+                    (d.getMonth() + 1).toString() + "/" +
+                    (d.getDate() + 1).toString();
+            }
+            var len = yaml.length;
+            for (var i = 0; i < len; i++) {
+                yaml[i].finished = dateString(yaml[i].finished);
+            }
+            $("#finished").html(tmpl(yaml));
+            finished_yaml = yaml;
         });
-        function dateString(d) {
-            return d.getFullYear().toString() + "/" +
-                (d.getMonth() + 1).toString() + "/" +
-                (d.getDate() + 1).toString();
-        }
-        var len = yaml.length;
-        for (var i = 0; i < len; i++) {
-            yaml[i].finished = dateString(yaml[i].finished);
-        }
-        $("#finished").html(finished_tmpl(yaml));
-        finished_yaml = yaml;
     });
-    loadYAML("compilations", function(yaml) {
-        yaml.sort(function(a,b) {
-            return a.title.localeCompare(b.title);
+
+    getTemplateAjax('templates/compilations.hbars.html', function(tmpl) {
+        loadYAML("compilations", function(yaml) {
+            yaml.sort(function(a,b) {
+                return a.title.localeCompare(b.title);
+            });
+            $("#compilations").html(tmpl(yaml));
         });
-        $("#compilations").html(comp_tmpl(yaml));
-        compilations_yaml = yaml;
     });
 }
 
 function showModal(title,yaml,idx) {
-    console.log(yaml[idx]);
-    bootbox.dialog({
-        message: quotes_body_tmpl(yaml[idx]),
-        title: title,
-        onEscape: function() {}
-    });
+    if (quotes_body_tmpl) {
+        bootbox.dialog({
+            message: quotes_body_tmpl(yaml[idx]),
+            title: title,
+            onEscape: function() {}
+        });
+    }
 }
 
 // Close the modal dialog if the background of the document is clicked.
@@ -80,9 +86,29 @@ $(document).on('click', '.bootbox', function(){
         bootbox.hideAll();
 });
 
-try{ clicky.init(100602499); }catch(e){}
-try {
-    var snowplowTracker = Snowplow.getTrackerUrl('derecho.elijah.cs.cmu.edu:8080');
-    snowplowTracker.enableLinkTracking();
-    snowplowTracker.trackPageView();
-} catch (err) {}
+$(document).ready(function() {
+    quotes_body_tmpl = null;
+    getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
+        quotes_body_tmpl = tmpl;
+    });
+
+    Handlebars.registerHelper('for', function(from, to, block) {
+        var accum = '';
+        for(var i = from; i < to; ++i) {
+            accum += block.fn(i);
+        }
+        return accum;
+    });
+    Handlebars.registerHelper('escape', function(variable) {
+        return variable.replace(/(['"])/g, '\\$1');
+    });
+
+    loadLists();
+
+    try{ clicky.init(100602499); }catch(e){}
+    try {
+        var snowplowTracker = Snowplow.getTrackerUrl('derecho.elijah.cs.cmu.edu:8080');
+        snowplowTracker.enableLinkTracking();
+        snowplowTracker.trackPageView();
+    } catch (err) {}
+})
