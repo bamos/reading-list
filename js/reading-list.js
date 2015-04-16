@@ -21,6 +21,7 @@ function loadYAML(name, f) {
     client.onreadystatechange = function() {
         var yaml = jsyaml.load(client.responseText);
         if (yaml) {
+            client.onreadystatechange = null;
             f(yaml);
         }
     }
