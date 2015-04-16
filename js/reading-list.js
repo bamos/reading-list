@@ -92,7 +92,7 @@ function loadTimeline(finished_yaml) {
     var books = []
     $.each(finished_yaml, function(idx, book) {
         books.push({
-            "startDate": book.finished.replace(/\//g,",") + ",00,00,00",
+            "startDate": book.finished.replace(/\//g,","),
             "headline": book.author + ": " + book.title
         });
     });
@@ -104,7 +104,8 @@ function loadTimeline(finished_yaml) {
         width: "100%",
         height: "400",
         source: timelineData,
-        embed_id: 'finished-timeline'
+        embed_id: 'finished-timeline',
+        start_at_end: true
     });
 }
 
