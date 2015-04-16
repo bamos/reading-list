@@ -19,10 +19,11 @@ function loadYAML(name, f) {
     var client = new XMLHttpRequest();
     client.open('GET', 'data/' + name + '.yaml');
     client.onreadystatechange = function() {
-        var yaml = jsyaml.load(client.responseText);
-        if (yaml) {
-            client.onreadystatechange = null;
-            f(yaml);
+        if (client.readyState == 4) {
+            var yaml = jsyaml.load(client.responseText);
+            if (yaml) {
+                f(yaml);
+            }
         }
     }
     client.send();
