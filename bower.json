@@ -15,6 +15,7 @@
     "bootstrap": "~3.3.4",
     "handlebars": "~3.0.0",
     "js-yaml": "~3.2.7",
-    "font-awesome": "~4.3.0"
+    "font-awesome": "~4.3.0",
+    "TimelineJS": "~2.35.6"
   }
 }
