@@ -257,13 +257,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 250px;
-    }
+    padding-top: 30px;
 }
 
 .btn {
