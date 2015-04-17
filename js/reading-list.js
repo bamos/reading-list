@@ -85,6 +85,7 @@ function showModal(title,yaml,idx,subfield) {
             title: title,
             onEscape: function() {}
         });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
 }
 

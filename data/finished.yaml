@@ -19,6 +19,7 @@
   notes:
     - This demonstrates the use of 'notes'.
     - I will remove this when I have real notes for a book. :-)
+    - Mathjax example - $\vdash True$
     - |
       Multi paragraph example.
 

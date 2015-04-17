@@ -16,6 +16,7 @@
     "handlebars": "~3.0.0",
     "js-yaml": "~3.2.7",
     "font-awesome": "~4.3.0",
-    "TimelineJS": "~2.35.6"
+    "TimelineJS": "~2.35.6",
+    "MathJax": "~2.5.1"
   }
 }

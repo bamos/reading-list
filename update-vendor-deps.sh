@@ -9,6 +9,9 @@ mkdir -p vendor/{css,fonts,js}
 
 cp -r bower_components/bootstrap/dist/* vendor
 cp -r bower_components/font-awesome/* vendor
+cp -r bower_components/MathJax/unpacked vendor/MathJax
+
+
 cp -r bower_components/TimelineJS/build/* vendor
 cp vendor/css/themes/dark.css vendor/css/timeline.css
 cp vendor/css/themes/timeline-dark.png vendor/css/timeline-dark.png
