@@ -71,10 +71,17 @@ function loadLists() {
     });
 }
 
-function showModal(title,yaml,idx) {
-    if (quotes_body_tmpl) {
+function showModal(title,yaml,idx,subfield) {
+    var message = null;
+    if (subfield == "quotes" && quotes_body_tmpl) {
+        message = quotes_body_tmpl(yaml[idx]);
+    } else if (subfield == "notes" && notes_body_tmpl) {
+        message = notes_body_tmpl(yaml[idx]);
+    }
+
+    if (message) {
         bootbox.dialog({
-            message: quotes_body_tmpl(yaml[idx]),
+            message: message,
             title: title,
             onEscape: function() {}
         });
@@ -114,6 +121,10 @@ $(document).ready(function() {
     quotes_body_tmpl = null;
     getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
         quotes_body_tmpl = tmpl;
+    });
+    notes_body_tmpl = null;
+    getTemplateAjax('templates/notes-body.hbars.html', function(tmpl) {
+        notes_body_tmpl = tmpl;
     });
 
     Handlebars.registerHelper('for', function(from, to, block) {

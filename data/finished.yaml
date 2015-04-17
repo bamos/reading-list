@@ -16,6 +16,41 @@
     - page: 343
       content: "You should not fool the layman
         when you're talking as a scientist."
+  notes:
+    - This demonstrates the use of 'notes'.
+    - I will remove this when I have real notes for a book. :-)
+    - |
+      Multi paragraph example.
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+      in bibendum enim. Nam maximus, dolor maximus pharetra mollis,
+      elit justo sodales ligula, eu aliquam elit sem in libero. Proin
+      consequat est dapibus urna tempus mattis. Ut convallis nulla
+      mauris, vel ornare risus cursus non. Etiam mollis dolor vitae
+      dui dapibus feugiat. Suspendisse potenti. Suspendisse tincidunt,
+      sapien nec placerat eleifend, orci lectus posuere nisi, vel
+      consectetur massa ligula a eros. Cras non facilisis
+      turpis. Mauris vel lacus sed diam dapibus blandit in in
+      erat. Praesent sapien orci, ullamcorper vehicula sollicitudin
+      sed, aliquam cursus enim. Interdum et malesuada fames ac ante
+      ipsum primis in faucibus. Donec ut elementum arcu. Fusce euismod
+      malesuada lorem, ac consequat dolor mollis vitae. Vestibulum
+      porta justo erat, sed pretium orci varius quis. In id nibh ac
+      dolor dictum convallis.
+
+      Sed fringilla tincidunt nibh, a consequat eros. Integer lorem
+      sapien, sollicitudin ac tortor eget, semper rhoncus erat. Proin
+      vulputate laoreet leo, ac ultrices neque aliquam lobortis. Proin
+      turpis ante, auctor a commodo vitae, placerat eget felis. Aenean
+      justo orci, scelerisque vel varius sed, hendrerit at
+      metus. Pellentesque habitant morbi tristique senectus et netus
+      et malesuada fames ac turpis egestas. Phasellus orci augue,
+      hendrerit at lobortis non, eleifend sit amet purus. Sed quis
+      magna sapien. Donec venenatis tempus elementum. Aenean molestie,
+      metus id semper tempus, quam quam commodo quam, id imperdiet
+      ipsum neque a nulla. Suspendisse bibendum pulvinar mauris, vel
+      aliquet nibh semper id. Mauris ornare venenatis risus, non
+      pharetra nulla facilisis viverra.
 - author: Frederick Brooks
   title: The Mythical Man Month
   finished: 2014-06-17

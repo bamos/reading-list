@@ -10,8 +10,18 @@
       {{#if this.quotes}}
       <a href="javascript:void(0)"
          onclick="showModal('{{ escape this.title}}: Quotes',
-                  finished_yaml, {{@index}})">
+                  finished_yaml, {{@index}}, 'quotes')">
         Quotes
+      </a>
+        {{#if this.notes}}
+            &bull;
+        {{/if}}
+      {{/if}}
+      {{#if this.notes}}
+      <a href="javascript:void(0)"
+         onclick="showModal('{{ escape this.title}}: Notes',
+                  finished_yaml, {{@index}}, 'notes')">
+        Notes
       </a>
       {{/if}}
     </center>
