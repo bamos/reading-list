@@ -1,22 +1,43 @@
 # Reading List
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
-This repository is my approach at a GitHub-hosted reading list.
-My goal is to have version-controlled plaintext list with
-minimal hosting overhead, which I achieve through static hosting
-on [GitHub pages][gh-pages].
-The online version is available [here][www].
+This repository contains my open source reading list.
+See the [online version](http://bamos.github.io/reading-list).
 
-# Workflow and Implementation
-My workflow for updating my list uses `gh-pages` as the default
-branch. I modify the [YAML][yaml] files in the [data][data] directory
-and commit/push. GitHub pages will publish the new content,
-which will be read by [index.html][index].
-`index.html` loads the YAML data files with [nodeca/js-yaml][js-yaml]
-and uses [handlebars.js][handlebars.js] for templates.
-The modals are created with [drublic/css-modal][css-modal].
-Very clearly, I'm not a frontend developer and welcome
-any pull requests with improvements.
+# Goals
++ Plaintext and friendly data format.
++ Minimal hosting and deployment overhead.
++ Offline editing support.
+
+# Technologies Used
++ [YAML](http://yaml.org) data.
++ [GitHub Pages](https://pages.github.com/) hosts and automatically
+  deploys a 100% client-side website that can also be edited offline.
+  [Bower](http://bower.io/) manages 3rd party library dependencies
+  used on the site, stored in [bower.json](https://github.com/bamos/reading-list/blob/gh-pages/bower.json).
+
+# Creating Your Reading List: Quick Guide
+1. Fork or copy the contents of this repository into a new GitHub repository.
+  Make sure the default branch is set to `gh-pages` for deployment.
+  At this point, you should be able to see my site hosted at.
+  `http://<your-github-name>.github.io/reading-list`
+2. Update the [data](https://github.com/bamos/reading-list/tree/gh-pages/data)
+  and push the changes to GitHub.
+  These should immediately be reflected on the site.
+3. Personalize the content in [index.html](https://github.com/bamos/reading-list/blob/gh-pages/index.html).
+
+# Local Deployment
+Most browsers will not be able to open `index.html` directly
+from the filesystem because the js loads YAML resources.
+One workaround is to use start a simple Python static
+web server with `python2 -m SimpleHTTPServer`
+and access the website with `localhost:8000`.
+
+# Updating Bower Dependencies
+Run `bower update` obtain the dependencies in `bower_components`.
+Run [./update-vendor-deps.sh](https://github.com/bamos/reading-list/blob/gh-pages/update-vendor-deps.sh)
+to copy the necessary portions into
+[vendor](https://github.com/bamos/reading-list/tree/gh-pages/vendor).
 
 # Inspiration
 I was inspired to create a GitHub-hosted reading list by seeing
@@ -50,14 +71,6 @@ Name | Stargazers | Description
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
 [jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 2 | My reading list.
 
-# Why not just use a hosted solution?
-Simply, preference.
-[goodreads][goodreads] provides an amazing hosted reading list
-service and community.
-However, I prefer managing my lists in plaintext with vim
-and being able to hack on any part of the system if
-I want a new or different feature.
-
 # Credits and Licensing
 All portions are
 [MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)
@@ -70,17 +83,8 @@ Modifications remain under the original license.
 | Project | Modified | License |
 |---|---|---|
 | [Twitter bootstrap](https://github.com/twbs/bootstrap) | No | MIT |
+| [handlebars.js](https://github.com/wycats/handlebars.js/) | No | MIT License
 | [IronSummitMedia/startbootstrap-grayscale](https://github.com/IronSummitMedia/startbootstrap-grayscale) | Yes | Apache 2 |
 | [makeusebrew/bootbox](https://github.com/makeusabrew/bootbox) | No | MIT |
 | [Flickr Photo](https://flic.kr/p/rnazyb) | Yes | [cc by-nc-sa 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) |
 | [TimelineJS](https://github.com/NUKnightLab/TimelineJS) | No | Mozilla Public License
-
-[www]: http://bamos.io/reading-list
-[gh-pages]: https://pages.github.com/
-[yaml]: http://www.yaml.org/
-[data]: https://github.com/bamos/reading-list/tree/gh-pages/data
-[index]: https://github.com/bamos/reading-list/blob/gh-pages/index.html
-[js-yaml]: https://github.com/nodeca/js-yaml
-[handlebars.js]: https://github.com/wycats/handlebars.js
-[css-modal]: https://github.com/drublic/css-modal
-[goodreads]: http://www.goodreads.com/
