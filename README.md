@@ -10,21 +10,22 @@ See the [online version](http://bamos.github.io/reading-list).
 + Offline editing support.
 
 # Technologies Used
++ Linux and OSX. Windows should also work with Cygwin, but
+  I haven't tried. Please file any issues related to this.
 + [YAML](http://yaml.org) data.
 + [GitHub Pages](https://pages.github.com/) hosts and automatically
   deploys a 100% client-side website that can also be edited offline.
   [Bower](http://bower.io/) manages 3rd party library dependencies
   used on the site, stored in [bower.json](https://github.com/bamos/reading-list/blob/gh-pages/bower.json).
 
-# Creating Your Reading List: Quick Guide
+# Creating Your Reading List: Quick Start
 1. Fork or copy the contents of this repository into a new GitHub repository.
   Make sure the default branch is set to `gh-pages` for deployment.
   At this point, you should be able to see my site hosted at.
   `http://<your-github-name>.github.io/reading-list`
 2. Update the [data](https://github.com/bamos/reading-list/tree/gh-pages/data)
-  and push the changes to GitHub.
-  These should immediately be reflected on the site.
-3. Personalize the content in [index.html](https://github.com/bamos/reading-list/blob/gh-pages/index.html).
+  and personalize [index.html](https://github.com/bamos/reading-list/blob/gh-pages/index.html).
+  Push your changes to GitHub to see them immediately on the new site.
 
 # Local Deployment
 Most browsers will not be able to open `index.html` directly
@@ -34,16 +35,14 @@ web server with `python2 -m SimpleHTTPServer`
 and access the website with `localhost:8000`.
 
 # Updating Bower Dependencies
-Run `bower update` obtain the dependencies in `bower_components`.
+Run `bower update` to obtain the dependencies in `bower_components`.
 Run [./update-vendor-deps.sh](https://github.com/bamos/reading-list/blob/gh-pages/update-vendor-deps.sh)
 to copy the necessary portions into
 [vendor](https://github.com/bamos/reading-list/tree/gh-pages/vendor).
 
 # Inspiration
-I was inspired to create a GitHub-hosted reading list by seeing
-similar projects by other people.
-Following is a list of repositories I've found.
-Do get in contact if you'd like me to check out and link to your list.
+The following projects inspired me to create
+a GitHub-hosted reading list.
 
 <!--
 To generate the following list, install https://github.com/jacquev6/PyGithub
