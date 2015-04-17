@@ -1,0 +1,24 @@
+<p>
+{{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
+{{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
+</p>
+
+<p>
+{{#if this.quotes}}
+<a href="javascript:void(0)"
+    onclick="showModal('{{ escape this.title}}: Quotes',
+            finished_yaml, {{this.idx}}, 'quotes')">
+Quotes
+</a>
+{{#if this.notes}}
+    &bull;
+{{/if}}
+{{/if}}
+{{#if this.notes}}
+<a href="javascript:void(0)"
+    onclick="showModal('{{ escape this.title}}: Notes',
+            finished_yaml, {{this.idx}}, 'notes')">
+Notes
+</a>
+{{/if}}
+</p>

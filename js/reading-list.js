@@ -57,7 +57,10 @@ function loadLists() {
             }
             $("#finished").html(tmpl(yaml));
             finished_yaml = yaml;
-            loadTimeline(yaml);
+
+            getTemplateAjax('templates/timeline-body.hbars.html', function(timeline_body_tmpl) {
+                loadTimeline(yaml,timeline_body_tmpl);
+            });
         });
     });
 
@@ -97,12 +100,14 @@ $(document).on('click', '.bootbox', function(){
         bootbox.hideAll();
 });
 
-function loadTimeline(finished_yaml) {
+function loadTimeline(finished_yaml, timeline_body_tmpl) {
     var books = []
     $.each(finished_yaml, function(idx, book) {
+        book['idx'] = idx;
         books.push({
             "startDate": book.finished.replace(/\//g,","),
-            "headline": book.author + ": " + book.title
+            "headline": book.author + ": " + book.title,
+            "text": timeline_body_tmpl(book)
         });
     });
     var timelineData = { "timeline": {
