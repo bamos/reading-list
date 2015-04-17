@@ -4,6 +4,9 @@
 This repository contains my open source reading list.
 See the [online version](http://bamos.github.io/reading-list).
 
+> My list is indeed lacking. Suggestions welcome.
+> -Brandon.
+
 # Goals
 + Plaintext and friendly data format.
 + Minimal hosting and deployment overhead.
