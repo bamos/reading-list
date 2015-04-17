@@ -1,4 +1,5 @@
 # Reading List
+![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
 This repository is my approach at a GitHub-hosted reading list.
 My goal is to have version-controlled plaintext list with
