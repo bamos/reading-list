@@ -123,8 +123,16 @@ $(document).ready(function() {
         }
         return accum;
     });
+
     Handlebars.registerHelper('escape', function(variable) {
         return variable.replace(/(['"])/g, '\\$1');
+    });
+
+    // http://stackoverflow.com/questions/12331077
+    Handlebars.registerHelper('breaklines', function(text) {
+      text = Handlebars.Utils.escapeExpression(text);
+      text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+      return new Handlebars.SafeString(text);
     });
 
     loadLists();
