@@ -4,11 +4,12 @@
 This repository contains my open source reading list.
 See the [online version](http://bamos.github.io/reading-list).
 
-> My reading list is indeed lacking. Suggestions welcome.
+> Hi, I welcome feedback on the code or presentation,
+> I'm not a web developer or designer.
+> The contents of my list is also lacking and I also
+> welcome suggestions.
 >
-> I'm also not a web developer and am happy for feedback on the code/design.
->
-> -Brandon.
+> -Brandon. // 2015/04/19
 
 # Goals
 + Plaintext and friendly data format.
