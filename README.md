@@ -6,7 +6,7 @@ See the [online version](http://bamos.github.io/reading-list).
 
 > Hi, I welcome feedback on the code or presentation,
 > I'm not a web developer or designer.
-> The contents of my list is also lacking and I also
+> The contents of my list is also lacking and I
 > welcome suggestions.
 >
 > -Brandon. // 2015/04/19
