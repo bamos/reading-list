@@ -59,9 +59,11 @@ getQuotes book = fmap (map (getQuote book)) $ quotes book
 getAllQuotes :: [Book] -> [String]
 getAllQuotes books = concat $ catMaybes $ map getQuotes $ books
 
-main =
-  do yamlData <- BS.readFile "data/finished.yaml"
-     let books = Data.Yaml.decode yamlData :: Maybe [Book]
-     let quotes = getAllQuotes $ fromJust books
-     let randomQuote = sample $ choice quotes
-     putStrLn =<< randomQuote
+main = do
+  yamlData <- BS.readFile "data/finished.yaml"
+  let mBooks = Data.Yaml.decode yamlData :: Maybe [Book]
+  case mBooks of
+    Just books -> putStrLn =<< randomQuote
+      where randomQuote = sample $ choice quotes
+            quotes = getAllQuotes $ books
+    Nothing -> putStrLn "Unable to parse YAML document."
