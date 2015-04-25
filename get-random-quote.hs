@@ -44,13 +44,13 @@ data Book =
 
 -- Produce a formatted string for a quote.
 getQuote :: Book -> Quote -> String
-getQuote book quote = foldl (++) "" [show $ content quote
-                                     ,"\n\nFrom page "
-                                     ,page quote
-                                     ," of "
-                                     ,show $ title book
-                                     ," by "
-                                     ,author book]
+getQuote book quote = concat [show $ content quote
+                             ,"\n\nFrom page "
+                             ,page quote
+                             ," of "
+                             ,show $ title book
+                             ," by "
+                             ,author book]
 
 -- Format all of the quotes of a book.
 getQuotes :: Book -> Maybe [String]
