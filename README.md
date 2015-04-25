@@ -47,6 +47,19 @@ Run [./update-vendor-deps.sh](https://github.com/bamos/reading-list/blob/gh-page
 to copy the necessary portions into
 [vendor](https://github.com/bamos/reading-list/tree/gh-pages/vendor).
 
+# Getting a Random Quote with a Script
+
+[get-random-quote.hs](https://github.com/bamos/reading-list/blob/gh-pages/get-random-quote.hs)
+is a Haskell script that prints a random quote from the quote
+collection in
+[data/finished.yaml](https://github.com/bamos/reading-list/blob/gh-pages/data/finished.yaml).
+
+I use it to email myself quotes every few days with a cron
+job piping the output to a command-line mailing program (mutt).
+
+Appropriate packages can be installed with
+[cabal](https://www.haskell.org/cabal/).
+
 # Inspiration
 The following projects inspired me to create
 a GitHub-hosted reading list.
