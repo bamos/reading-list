@@ -54,10 +54,10 @@ getQuote book quote = concat [show $ content quote
 
 -- Format all of the quotes of a book.
 getQuotes :: Book -> Maybe [String]
-getQuotes book = fmap (map (getQuote book)) $ quotes book
+getQuotes book = fmap (map $ getQuote book) $ quotes book
 
 getAllQuotes :: [Book] -> [String]
-getAllQuotes books = concat $ catMaybes $ map getQuotes $ books
+getAllQuotes books = concat . catMaybes . map getQuotes $ books
 
 main = do
   yamlData <- BS.readFile "data/finished.yaml"
