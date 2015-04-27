@@ -6,7 +6,7 @@ cat>README.md<<"EOF"
 <!--
 
 This README is auto-generated with generate-readme.sh
-Please add changes there instead.
+Please add changes there.
 
 -->
 # Reading List
