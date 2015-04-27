@@ -1,3 +1,9 @@
+<!--
+
+This README is auto-generated with generate-readme.sh
+Please add changes there instead.
+
+-->
 # Reading List
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
@@ -64,32 +70,16 @@ Appropriate packages can be installed with
 The following projects inspired me to create
 a GitHub-hosted reading list.
 
-<!--
-To generate the following list, install https://github.com/jacquev6/PyGithub
-and download the `github-repo-summary.py` script from
-https://github.com/bamos/python-scripts/blob/master/python3/github-repo-summary.py.
-Please add projects to the list in the comment and in the table below.
-
-github-repo-summary.py \
-  cmonty/reading-list \
-  coryschires/reading-list \
-  DavidRagone/reading\_list \
-  eightbitraptor/reading\_list \
-  gbtekkie/ReadingList \
-  jaredcacurak/Reading-List
--->
-
-Generated on 2014-11-02, see the Markdown source of this file for more details.
-
 Name | Stargazers | Description
 ----|----|----
-[cmonty/reading-list](https://github.com/cmonty/reading-list) | 3 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
-[coryschires/reading-list](https://github.com/coryschires/reading-list) | 17 | List of books and screencasts related to development, user experience design, and entrepreneurship.
-[DavidRagone/reading_list](https://github.com/DavidRagone/reading_list) | 1 | List of books I have read related to development, user experience design, and entrepreneurship
-[eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 8 |
+[0x0af/doiread](https://github.com/0x0af/doiread) | 0 | Do I read?
+[cmonty/reading-list](https://github.com/cmonty/reading-list) | 6 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
+[coryschires/reading-list](https://github.com/coryschires/reading-list) | 17 | List of books and screencasts related to development, user experience design, and entrepreneurship. 
+[DavidRagone/reading_list](https://github.com/DavidRagone/reading_list) | 2 | List of books I have read related to development, user experience design, and entrepreneurship
+[eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 8 | 
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
 [jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 2 | My reading list.
-
+[seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 0 | 
 # Credits and Licensing
 All portions are
 [MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)
