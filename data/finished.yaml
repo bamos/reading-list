@@ -1,3 +1,33 @@
+- author: George Orwell
+  title: "1984"
+  finished: 2015-05-02
+  rating: 8
+  quotes:
+    - page: "28"
+      content: Nothing was your own except the few cubic centimetres
+        inside your skull.
+    - page: "53"
+      content: How could you have a slogan like 'freedom is slavery'
+        when the concept of freedom has been abolished?
+    - page: "59"
+      content: Why should one feel it to be intolerable unles
+        one had some kind of ancestral memory that things had
+        once been different?
+    - page: "63"
+      content: Your worst enemy, he reflected, was your own
+        nervous system.
+    - page: "194"
+      content: The book fascinated him, or more
+        exactly it reassured him. In a sense it told him
+        nothing that was new, but that was part of the
+        attraction.
+        It said what he would have said, if it had been possible
+        for him to set his scattered thoughts in order.
+        In was the product of a mind similar to his own, but
+        enormously more powerful, more systematic,
+        less fear-ridden.
+        The best books, he perceived, are those that tell you
+        what you know already.
 - author: Richard Feynman
   title: "Surely You're Joking, Mr. Feynman"
   finished: 2015-03-03
