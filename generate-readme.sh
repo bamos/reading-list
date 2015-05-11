@@ -89,10 +89,24 @@ github-repo-summary.py \
   eightbitraptor/reading\_list \
   gbtekkie/ReadingList \
   jaredcacurak/Reading-List \
-  0x0af/doiread \
-  seanosaur/reading_list >> README.md
+  >> README.md
 
 cat>>README.md<<"EOF"
+
+# People using this repo for their reading list
+
+Ping me if you'd like to be added or removed.
+
+EOF
+
+github-repo-summary.py \
+  0x0af/doiread \
+  seanosaur/reading_list \
+  aerovolts/reading-list \
+  >> README.md
+
+cat>>README.md<<"EOF"
+
 # Credits and Licensing
 All portions are
 [MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)

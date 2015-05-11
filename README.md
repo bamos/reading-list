@@ -1,7 +1,7 @@
 <!--
 
 This README is auto-generated with generate-readme.sh
-Please add changes there instead.
+Please add changes there.
 
 -->
 # Reading List
@@ -72,14 +72,23 @@ a GitHub-hosted reading list.
 
 Name | Stargazers | Description
 ----|----|----
-[0x0af/doiread](https://github.com/0x0af/doiread) | 0 | Do I read?
 [cmonty/reading-list](https://github.com/cmonty/reading-list) | 6 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
 [coryschires/reading-list](https://github.com/coryschires/reading-list) | 17 | List of books and screencasts related to development, user experience design, and entrepreneurship. 
 [DavidRagone/reading_list](https://github.com/DavidRagone/reading_list) | 2 | List of books I have read related to development, user experience design, and entrepreneurship
 [eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 8 | 
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
 [jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 2 | My reading list.
+
+# People using this repo for their reading list
+
+Ping me if you'd like to be added or removed.
+
+Name | Stargazers | Description
+----|----|----
+[0x0af/doiread](https://github.com/0x0af/doiread) | 0 | I read
+[aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My reading list.
 [seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 0 | 
+
 # Credits and Licensing
 All portions are
 [MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)
