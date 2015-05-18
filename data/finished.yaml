@@ -1,5 +1,5 @@
 - author: Arthur Conan Doyle
-  title: The Complete Sherlock Holmes
+  title: The Complete Sherlock Holmes (In progress)
   finished: 2015-06-01 # TODO: Unfinished.
   rating: 0 # TODO
   quotes:
@@ -10,11 +10,11 @@
       content: No man burdens his mind with small matters unless
         he has some very good reason for doing so.
 - author: Don Norman
-  title: "The Design of Everyday Things"
+  title: "The Design of Everyday Things (In progress)"
   finished: 2015-06-01 # TODO: Unfinished.
   rating: 0 # TODO
 - author: Douglas R. Hofstadter
-  title: "Godel, Escher, Bach: an Eternal Golden Braid"
+  title: "Godel, Escher, Bach: an Eternal Golden Braid (In progress)"
   finished: 2015-06-01 # TODO: Unfinished.
   rating: 0 # TODO
   notes:
@@ -53,7 +53,7 @@
 - author: George Orwell
   title: "1984"
   finished: 2015-05-02
-  rating: 8
+  rating: 4
   quotes:
     - page: "28"
       content: Nothing was your own except the few cubic centimetres
@@ -83,7 +83,7 @@
 - author: Richard Feynman
   title: "Surely You're Joking, Mr. Feynman"
   finished: 2015-03-03
-  rating: 9
+  rating: 4
   quotes:
     - page: "127"
       content: The trouble with computers is you play with
@@ -137,7 +137,7 @@
 - author: Frederick Brooks
   title: The Mythical Man Month
   finished: 2014-06-17
-  rating: 6
+  rating: 3
   quotes:
     - page: "13"
       content: The programmer, like the poet, works only slightly removed
@@ -150,7 +150,7 @@
 - author: John Steinbeck
   title: East of Eden
   finished: 2014-05-18
-  rating: 8
+  rating: 4
   quotes:
     - page: "9"
       content: You can boast about anything if it's all you have.
@@ -174,7 +174,7 @@
 - author: Isaac Asimov
   title: I, Robot
   finished: 2011-12-07
-  rating: 8
+  rating: 4
   quotes:
     - page: "271"
       content: |
@@ -184,7 +184,7 @@
 - author: Lois Bujold
   title: The Warrior's Apprentice
   finished: 2011-11-20
-  rating: 6
+  rating: 3
   quotes:
     - page: "83"
       content: Ninety percent of success seemed to lie in asking the right
@@ -193,7 +193,7 @@
 - author: Suzanne Collins
   title: The Hunger Games
   finished: 2013-06-18
-  rating: 8
+  rating: 4
   quotes:
     - page: "42"
       content: But don't spend much time thinking about it.
@@ -202,7 +202,7 @@
 - author: Pat Conroy
   title: The Prince of Tides
   finished: 2011-03-20
-  rating: 9
+  rating: 4
   quotes:
     - page: "22"
       content: I had a limitless gift for turning even those
@@ -222,7 +222,7 @@
 - author: Michael Crichton
   title: Prey
   finished: 2012-04-30
-  rating: 9
+  rating: 4
   quotes:
     - page: "47"
       content: If they were all concerned, why didn't they do something about
@@ -235,7 +235,7 @@
 - author: Robert Fulghum
   title: All I Really Need to Know I Learned in Kindergarten
   finished: 2011-07-11
-  rating: 9
+  rating: 4
   quotes:
     - page: "20"
       content: Sticks and stones may break our bones, but words will break our
@@ -250,7 +250,7 @@
 - author: Masha Gessen
   title: Perfect Rigor
   finished: 2010-01-05
-  rating: 7
+  rating: 3
   quotes:
     - page: "34"
       content: Language is not just a frustratingly imprecise way of trying to
@@ -264,7 +264,7 @@
 - author: Stephen Hawking
   title: A Brief History of Time
   finished: 2010-10-05
-  rating: 7
+  rating: 4
   quotes:
     - page: "151"
       content: Some people never admit that they are wrong and continue to find
@@ -277,7 +277,7 @@
 - author: Stephen Hawking
   title: The Grand Design
   finished: 2010-09-13
-  rating: 4
+  rating: 2
   quotes:
     - page: "5"
       content: Philosophy is dead.
@@ -285,7 +285,7 @@
 - author: Aldous Huxley
   title: Brave New World
   finished: 2013-08-13
-  rating: 7
+  rating: 4
   quotes:
     - page: "4"
       content: Bokanovsky's Process is one of the major instruments of social
@@ -302,7 +302,7 @@
 - author: John Irving
   title: A Prayer for Owen Meany
   finished: 2010-10-10
-  rating: 8
+  rating: 4
   quotes:
     - page: "543"
       content: We had the impression that everything was a game - we thought we
@@ -313,7 +313,7 @@
 - author: Michio Kaku
   title: Parallel Worlds
   finished: 2010-12-01
-  rating: 8
+  rating: 3
   quotes:
     - page: "196"
       content: Music provides the metaphor by which we can understand the
@@ -330,7 +330,7 @@
 - author: Jonah Lehrer
   title: How We Decide
   finished: 2012-02-26
-  rating: 7
+  rating: 3
   quotes:
     - page: "26"
       content: The process of thinking requires feeling, for feelings are what
@@ -343,7 +343,7 @@
 - author: George R. R. Martin
   title: A Game of Thrones
   finished: 2012-01-12
-  rating: 4
+  rating: 2
   quotes:
     - page: "383"
       content: I think I will try and sleep. Wake me if we're about to die.
@@ -353,7 +353,7 @@
 - author: Pablo Neruda
   title: I Explain a Few Things
   finished: 2011-12-20
-  rating: 9
+  rating: 4
   quotes:
     - page: "59"
       content: When man deserted the lairs of the turbine, when he tore off the
@@ -375,7 +375,7 @@
 - author: Randy Pausch
   title: The Last Lecture
   finished: 2012-07-06
-  rating: 9
+  rating: 4
   quotes:
     - page: "10"
       content: Whatever my accomplishments, all of the things I loved were
@@ -403,7 +403,7 @@
 - author: Ayn Rand
   title: Atlas Shrugged
   finished: 2011-06-22
-  rating: 6
+  rating: 3
   quotes:
     - page: "933"
       content: Neither love nor fame nor cash is a value if obtained by fraud.
@@ -417,7 +417,7 @@
 - author: Ayn Rand
   title: The Fountainhead
   finished: 2011-08-15
-  rating: 6
+  rating: 3
   quotes:
     - page: "541"
       content: We live in our minds, and existence is the attempt to bring that
@@ -426,7 +426,7 @@
 - author: J. K. Rowling
   title: Harry Potter and the Sorcerer's Stone
   finished: 2011-06-25
-  rating: 9
+  rating: 4
   quotes:
     - page: "128"
       content: |
@@ -442,7 +442,7 @@
 - author: J. K. Rowling
   title: Harry Potter and the Chamber of Secrets
   finished: 2011-06-26
-  rating: 9
+  rating: 4
   quotes:
     - page: "333"
       content: It is our choices, Harry, that show what we truly are, far more
@@ -451,12 +451,12 @@
 - author: J. K. Rowling
   title: Harry Potter and the Prisoner of Azkaban
   finished: 2011-06-27
-  rating: 9
+  rating: 4
 
 - author: J. K. Rowling
   title: Harry Potter and the Goblet of Fire
   finished: 2011-06-29
-  rating: 9
+  rating: 4
   quotes:
     - page: "317"
       content: It is a strange thing, but when you are dreading something, and
@@ -469,7 +469,7 @@
 - author: J. K. Rowling
   title: Harry Potter and the Order of the Phoenix
   finished: 2011-07-03
-  rating: 9
+  rating: 4
   quotes:
     - page: "826"
       content: Youth cannot know how age thinks and feels. But old men are
@@ -478,7 +478,7 @@
 - author: J. K. Rowling
   title: Harry Potter and the Half-Blood Prince
   finished: 2011-07-05
-  rating: 9
+  rating: 4
   quotes:
     - page: "96"
       content: Dumbledore says people find it far easier to forgive others for
@@ -487,12 +487,12 @@
 - author: J. K. Rowling
   title: Harry Potter and the Deathly Hallows
   finished: 2011-07-10
-  rating: 9
+  rating: 4
 
 - author: Carl Sagan
   title: The Demon-Haunted World
   finished: 2010-08-03
-  rating: 8
+  rating: 4
   quotes:
     - page: xiv
       content: College was the fulfillment of my dreams.
@@ -587,7 +587,7 @@
 - author: Henry David Thoreau
   title: Walden
   finished: 2011-07-17
-  rating: 6
+  rating: 3
   quotes:
     - page: "68"
       content: For a man is rich in proportion to the number of things which he
@@ -603,12 +603,12 @@
 - author: J. R. R. Tolkein
   title: The Hobbit or There and Back Again
   finished: 2011-12-17
-  rating: 8
+  rating: 4
 
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 1
   finished: 2011-12-20
-  rating: 8
+  rating: 4
   quotes:
     - page: "58"
       content: Many that live deserve death. And some that deserve life. Can
@@ -618,7 +618,7 @@
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 2
   finished: 2011-12-23
-  rating: 8
+  rating: 4
   quotes:
     - page: "339"
       content: "We live now upon an island amid many perils, and our hands are
@@ -627,7 +627,7 @@
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 3
   finished: 2011-12-24
-  rating: 8
+  rating: 4
   quotes:
     - page: "463"
       content: I have become too hot. I must cool myself and think; for it is
@@ -638,12 +638,12 @@
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 4
   finished: 2011-12-27
-  rating: 8
+  rating: 4
 
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 5
   finished: 2011-12-30
-  rating: 8
+  rating: 4
   quotes:
     - page: "743"
       content: Well, no need to brood on what tomorrow may bring. For one
@@ -657,7 +657,7 @@
 - author: J. R. R. Tolkein
   title: The Lord of The Rings, Book 6
   finished: 2012-01-01
-  rating: 8
+  rating: 4
   quotes:
     - page: "931"
       content: I feel like spring after winter, and sun on the leaves; and like
@@ -668,7 +668,7 @@
 - author: Various Authors
   title: This I Believe II
   finished: 2011-09-08
-  rating: 9
+  rating: 4
   quotes:
     - page: "13"
       content: We all belong in the same human tribe; that kinship supersedes
@@ -692,7 +692,7 @@
 - author: Jeannette Walls
   title: The Glass Castle
   finished: 2012-05-20
-  rating: 9
+  rating: 4
   quotes:
     - page: "109"
       content: But who cared what they thought? None of them had ever had their
@@ -703,12 +703,12 @@
 - author: H. G. Wells
   title: The Invisible Man
   finished: 2010-12-17
-  rating: 4
+  rating: 2
 
 - author: Walt Whitman
   title: Leaves of Grass
   finished: 2012-02-02
-  rating: 7
+  rating: 3
   quotes:
     - page: "49"
       content: A morning-glory at my window satisfies me more than the
