@@ -1,3 +1,55 @@
+- author: Arthur Conan Doyle
+  title: The Complete Sherlock Holmes
+  finished: 2015-06-01 # TODO: Unfinished.
+  rating: 0 # TODO
+  quotes:
+    - page: "23"
+      content: The sight of a friendly face in the great wilderness
+        of London is a pleasant thing indeed to a lonely man.
+    - page: "31"
+      content: No man burdens his mind with small matters unless
+        he has some very good reason for doing so.
+- author: Don Norman
+  title: "The Design of Everyday Things"
+  finished: 2015-06-01 # TODO: Unfinished.
+  rating: 0 # TODO
+- author: Douglas R. Hofstadter
+  title: "Godel, Escher, Bach: an Eternal Golden Braid"
+  finished: 2015-06-01 # TODO: Unfinished.
+  rating: 0 # TODO
+  notes:
+    - |
+      Godel's Incompleteness Theorem.
+
+      Formal Definition (from Introduction):
+      To every $\omega$-consistent recursive class $\kappa$ of formulae
+      there correspond recursive class-signs $r$ such that neither
+      $v$ Gen $r$ nor Neg ($v$ Gen $r$) belongs to Flg ($\kappa$)
+      (where $v$ is the free variable of $r$).
+
+      Paraphrase in normal English:
+      All consistent axiomatic formulations of number theory include
+      undecidable propositions.
+
+    - Contracrostipunctus and Geometry. Bach's final Contrapunctus in
+      his Art of Fugue ends with the notes B A C H, which was convention
+      in Germany for the notes Bb A C B.
+  quotes:
+    - page: "17"
+      content: But whereas it is very simple to talk about language in
+        language, it is not at all easy to see how a statement about
+        numbers can talk about itself.
+    - page: "32"
+      content: |
+        (Zeno) "Frankly I've only had one Great Idea -
+        I just exploit it in different ways.
+    - page: "37"
+      content: It is an inherent property of intelligence that it can
+        jump out of the task which it is performing, and survey what
+        it has done; it is always looking for, and always finding, patterns.
+    - page: "44"
+      content: Such a reader would do wisely in abandoning Euclid,
+        and taking to football.
 - author: George Orwell
   title: "1984"
   finished: 2015-05-02
