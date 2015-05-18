@@ -3,7 +3,9 @@
 <div class="row">
   <div class="col-md-4">
     {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
-    {{#for this.rating 10}}<i class="fa fa-star-o"></i>{{/for}}
+    <span id="open-rating">
+      {{#for this.rating 5}}<i class="fa fa-star-o"></i>{{/for}}
+    </span>
   </div>
   <div class="col-md-4">
     <center>

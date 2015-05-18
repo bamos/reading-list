@@ -341,3 +341,7 @@ body {
 .modal-content {
     color: #000000;
 }
+
+#open-rating {
+    margin-left: -3px;
+}
