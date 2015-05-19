@@ -47,9 +47,9 @@ function loadLists() {
                 return 0;
             });
             function dateString(d) {
-                return d.getFullYear().toString() + "/" +
-                    (d.getMonth() + 1).toString() + "/" +
-                    (d.getDate() + 1).toString();
+                return d.getUTCFullYear().toString() + "/" +
+                    (d.getUTCMonth()).toString() + "/" +
+                    (d.getUTCDate()).toString();
             }
             var len = yaml.length;
             for (var i = 0; i < len; i++) {
