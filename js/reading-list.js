@@ -48,7 +48,7 @@ function loadLists() {
             });
             function dateString(d) {
                 return d.getUTCFullYear().toString() + "/" +
-                    (d.getUTCMonth()).toString() + "/" +
+                    (d.getUTCMonth() + 1).toString() + "/" +
                     (d.getUTCDate()).toString();
             }
             var len = yaml.length;
