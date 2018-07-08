@@ -41,6 +41,10 @@ I keep track of books by editing the files here and
 the results are automatically published as a website at
 [http://bamos.github.io/reading-list](http://bamos.github.io/reading-list).
 
+This repository just contains stubbed examples of how to use
+this project. Ping me if you're interested in my
+personal reading list!
+
 # Goals
 + Plaintext and friendly data format.
 + Minimal hosting and deployment overhead.
