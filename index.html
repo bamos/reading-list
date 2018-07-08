@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brandon Amos: Reading List</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Uncomment if notes or quotes contain math.
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script type="text/javascript" src="vendor/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    -->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"
+                  data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll" href="https://bamos.github.io/reading-list">
+            <i class="fa fa-book"></i>  <span class="light">Reading</span> List
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link
+                 when scrolled up past about section -->
+            <li class="hidden"><a href="#page-top"></a></li>
+            <!-- <li><a class="page-scroll" href="#about">About</a></li> -->
+            <li><a class="page-scroll" href="#rHead">To Read</a></li>
+            <li><a class="page-scroll" href="#fHead">Finished</a></li>
+            <li><a class="page-scroll" href="#cHead">Compilations</a></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav>
+
+
+    <!-- Intro Header -->
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1>Reading List</h1>
+              <br>
+              <p>
+                This is freely hosted with
+                <a href="https://pages.github.com/" target="_blank">Github Pages</a>.<br>
+                The source is available on GitHub at
+                <a href="https://github.com/bamos/reading-list" target="_blank">bamos/reading-list</a> and<br>
+                includes instructions for making your own.
+              </p>
+              <p>
+                Crafted by <a href="http://bamos.github.io">Brandon Amos</a>.
+              </p>
+              <a href="#rHead" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- To Read -->
+    <section id="rHead" class="container content-section">
+      <div class="finished-section">
+        <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>To Read
+                  <span class="count">
+                      (<span id="to-read-count"></span>)
+                  </span>
+              </h2>
+            <!-- <a target="_blank" href= -->
+            <!-- "https://github.com/bamos/reading-list/blob/gh-pages/data/to-read.yaml"> -->
+            <!-- Suggest</a> -->
+            <div id="to-read"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finished -->
+    <section id="fHead" class="container content-section">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Finished
+                <span class="count">
+                    (<span id="finished-count"></span>)
+                </span>
+            </h2>
+          <!-- <a target="_blank" href= -->
+          <!-- "https://github.com/bamos/reading-list/blob/gh-pages/data/finished.yaml"> -->
+          <!-- Data</a> -->
+          <div id="finished-timeline"></div>
+          <div id="finished"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compilations -->
+    <section id="cHead" class="container content-section">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Compilations</h2>
+          <!-- <a target="_blank" href= -->
+          <!-- "https://github.com/bamos/reading-list/blob/gh-pages/data/compilations.yaml"> -->
+          <!-- Suggest</a> -->
+          <div id="compilations"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="vendor/js/jquery.min.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/bootbox.js"></script>
+    <script src="vendor/js/js-yaml.min.js"></script>
+    <script src="vendor/js/handlebars.min.js"></script>
+    <script src="vendor/js/storyjs-embed.js"></script>
+    <script src="vendor/js/marked.min.js"></script>
+    <script src="vendor/js/crypto-js/crypto-js.js"></script>
+
+    <script src="js/grayscale.js"></script>
+    <script src="js/reading-list.js"></script>
+  </body>
+</html>

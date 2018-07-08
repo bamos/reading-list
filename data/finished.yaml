@@ -1,0 +1,20 @@
+- author: Author A
+  title: Book 1
+  finished: 2017-09-21
+  rating: 4
+  quotes:
+    - page: 195
+      content: Quote 1 Content
+  notes:
+    - Note 1 Content
+    - Note 2 Content
+    - Note 3 Content
+- author: Author B
+  title: Book 2
+  finished: 2017-08-13
+  rating: 4
+  quotes:
+    - page: xi
+      content: Quote 2 Content
+    - page: 8
+      content: Quote 3 Content

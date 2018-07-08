@@ -1,0 +1,5 @@
+_site
+bower_components
+
+scripts/goodreads.secret.rb
+data/*.goodreads.*

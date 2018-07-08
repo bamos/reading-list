@@ -1,0 +1,47 @@
+{{#each this}}
+<h3 id="{{this.hash}}">
+  {{this.author}}:
+  <em>{{this.title}}</em>
+</h3>
+<div class="row">
+  <div class="col-md-4">
+    {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
+    <span id="open-rating">
+      {{#for this.rating 5}}<i class="fa fa-star-o"></i>{{/for}}
+    </span>
+  </div>
+  <div class="col-md-4">
+    <center>
+      <a href="?book={{this.hash}}" class='permalink'>Permalink</a>
+      {{#if this.quotes}}
+          <span class='permalink'>&bull;</span>
+      {{else if this.notes}}
+          &bull;
+      {{/if}}
+      {{#if this.quotes}}
+      <a href="javascript:void(0)"
+         onclick="showModal('{{ escape this.title}}: Quotes',
+                  finished_yaml, {{@index}}, 'quotes')">
+        Quotes
+      </a>
+        {{#if this.notes}}
+            &bull;
+        {{/if}}
+      {{/if}}
+      {{#if this.notes}}
+      <a href="javascript:void(0)"
+         onclick="showModal('{{ escape this.title}}: Notes',
+                  finished_yaml, {{@index}}, 'notes')">
+        Notes
+      </a>
+      {{/if}}
+    </center>
+  </div>
+  <div class="col-md-4">
+    <span class="pull-right">
+      {{this.finished}}
+    </span>
+  </div>
+</div>
+<hr>
+{{/each}}
