@@ -1,20 +1,31 @@
-- author: Author A
-  title: Book 1
-  finished: 2017-09-21
+# - author: Author A
+#   title: Book 1
+#   finished: 2017-09-21
+#   rating: 4
+#   quotes:
+#     - page: 195
+#       content: Quote 1 Content
+#   notes:
+#     - Note 1 Content
+#     - Note 2 Content
+#     - Note 3 Content
+# - author: Author B
+#   title: Book 2
+#   finished: 2017-08-13
+#   rating: 4
+#   quotes:
+#     - page: xi
+#       content: Quote 2 Content
+#     - page: 8
+#       content: Quote 3 Content
+- author: Atul Gawande
+  title: The Checklist Manifesto - How to Get Things Right
+  finished: 2020-01-03
   rating: 4
   quotes:
-    - page: 195
-      content: Quote 1 Content
-  notes:
-    - Note 1 Content
-    - Note 2 Content
-    - Note 3 Content
-- author: Author B
-  title: Book 2
-  finished: 2017-08-13
-  rating: 4
-  quotes:
-    - page: xi
-      content: Quote 2 Content
-    - page: 8
-      content: Quote 3 Content
+    - page: 5
+      content: Following a checklist allows you to pause for a second and ensure all steps have been taken
+    - page: 10
+      content: Identify any situations in your life on your working situation which could benefit from a checklist
+    - page: 10
+      content: Think about the use in do and read-do checklists for future situations which may occur and may require guidance
