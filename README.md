@@ -108,23 +108,8 @@ Name | Stargazers | Description
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
 [jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 3 | My reading list.
 
-# People using this repo for their reading list
-
-Ping me if you'd like to be added or removed.
-
-Name | Stargazers | Description
-----|----|----
-[aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My personal reading list.
-[ammadafsar/reading-list](https://github.com/ammadafsar/reading-list) | 0 | My reading list. Made so that I add things I will later read and commit to read them all in order.   
-[connors511/reading-list](https://github.com/connors511/reading-list) | 0 | My reading list. Made so that I add things I will later read and commit to read them all in order.
-[jakehschwartz/reading-list](https://github.com/jakehschwartz/reading-list) | 0 | My reading list.
-[markroxor/reading-list](https://github.com/markroxor/reading-list) | 0 | My reading list.
-[rwfeather/reading-list](https://github.com/rwfeather/reading-list) | 0 | My reading list.
-[samtron1412/reading-list](https://github.com/samtron1412/reading-list) | 0 | My reading list.
-[seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 2 | 
-[wrideout/reading-list](https://github.com/wrideout/reading-list) | 2 | My reading list.
-
 # Credits and Licensing
+reading-list by [Bamos](http://github.com/bamos)
 All portions are
 [MIT licensed](https://github.com/bamos/reading-list/blob/gh-pages/LICENSE.mit)
 by Brandon Amos unless otherwise noted.
